@@ -210,6 +210,15 @@ namespace a211_AutoCabinet.Forms
             listViewTagDataView.Columns.Add("Epc", 500, HorizontalAlignment.Left);
             listViewTagDataView.Columns.Add("Rssi", 200, HorizontalAlignment.Left);
             listViewTagDataView.Columns.Add("Time", 500, HorizontalAlignment.Left);
+
+            for (int i = 0; i < 128; i++)
+            {
+                string[] items = new string[15];
+                items[0] = (i + 1).ToString();
+                ListViewItem item = new ListViewItem(items);
+                LVDebugMode.Items.Add(item);
+            }
+            InitDebugModeList();
         }
 
         private void GetCultureInfo()
@@ -1162,8 +1171,8 @@ namespace a211_AutoCabinet.Forms
                 }
             }
 
-            LVDebugMode.Items[g_TagCurAntNo].SubItems[g_TagBufferCurLocationArray[CurentPort] + 1].Text
-             = g_TagBufferData[g_TagCurAntNo, g_TagBufferCurLocationArray[CurentPort], 0].Length.ToString();
+            LVDebugMode.Items[g_TagCurAntNo].SubItems[g_TagBufferCurLocationArray[g_TagCurAntNo] + 1].Text
+             = g_TagBufferData[g_TagCurAntNo, g_TagBufferCurLocationArray[g_TagCurAntNo], 0].Length.ToString();
 
         }
 
@@ -2549,7 +2558,6 @@ namespace a211_AutoCabinet.Forms
                     }
                     // 태그 카운트 출력
                     tagDataViews[i].labelTagCount.Text = g_TagBufferData[i, g_TagBufferCurLocationArray[i], 0].Length.ToString();
-
                 }
                 // 전부 비워져 있다면 넘어가기
                 else
@@ -2890,14 +2898,6 @@ namespace a211_AutoCabinet.Forms
                 btnExcelSave.Enabled = false;
                 btnExcelSave.Visible = false;
 
-                for (int i = 0; i < 128; i++)
-                {
-                    string[] items = new string[15];
-                    items[0] = (i + 1).ToString();
-                    ListViewItem item = new ListViewItem(items);
-                    LVDebugMode.Items.Add(item);
-                }
-                InitDebugModeList();
             }
         }
 

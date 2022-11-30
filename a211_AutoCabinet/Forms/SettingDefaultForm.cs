@@ -267,7 +267,7 @@ namespace a211_AutoCabinet.Forms
             return true;
         }
 
-        // 장비이름 등록 테스트 변수
+        // 장비이름 등록 테스트 
         private string DeviceName = string.Empty;
         private void buttonOk_Click(object sender, EventArgs e)
         {
