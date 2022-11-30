@@ -1,0 +1,4260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 8</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="memuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="memuToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Memu</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 6</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Language</value>
+  </data>
+  <data name="korToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 26</value>
+  </data>
+  <data name="korToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Kor</value>
+  </data>
+  <data name="engToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 26</value>
+  </data>
+  <data name="engToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Eng</value>
+  </data>
+  <data name="settingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="settingToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Setting</value>
+  </data>
+  <data name="defaultSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="defaultSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Default Setting</value>
+  </data>
+  <data name="modeSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="modeSettingToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;API Request Setting</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="viewModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 26</value>
+  </data>
+  <data name="viewModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;View Mode</value>
+  </data>
+  <data name="tableModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="tableModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Table Mode</value>
+  </data>
+  <data name="listModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="listModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;List Mode</value>
+  </data>
+  <data name="debugModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 26</value>
+  </data>
+  <data name="debugModeToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Debug Mode</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <metadata name="statusStripLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 8</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStripLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="statusStripLog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="statusStripLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1234</value>
+  </data>
+  <data name="statusStripLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 22</value>
+  </data>
+  <data name="statusStripLog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="statusStripLog.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStripLog.Name" xml:space="preserve">
+    <value>statusStripLog</value>
+  </data>
+  <data name="&gt;&gt;statusStripLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStripLog.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStripLog.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelTagDataView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="panelTagDataView.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Name" xml:space="preserve">
+    <value>tableLayoutPanelTagDataView</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Parent" xml:space="preserve">
+    <value>panelTagDataView</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="panelTagDataView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 74</value>
+  </data>
+  <data name="panelTagDataView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>936, 537</value>
+  </data>
+  <data name="panelTagDataView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panelTagDataView.Name" xml:space="preserve">
+    <value>panelTagDataView</value>
+  </data>
+  <data name="&gt;&gt;panelTagDataView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTagDataView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTagDataView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 15</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Name" xml:space="preserve">
+    <value>tableLayoutPanelTagDataView</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.Parent" xml:space="preserve">
+    <value>panelTagDataView</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanelTagDataView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Name" xml:space="preserve">
+    <value>btnExcelSave</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Name" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>958, 42</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 569</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Name" xml:space="preserve">
+    <value>btnInvenStop</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Name" xml:space="preserve">
+    <value>comboBoxComList</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Name" xml:space="preserve">
+    <value>labelRfidInventoryElapsedTimeValue</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Name" xml:space="preserve">
+    <value>buttonComSearch</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Name" xml:space="preserve">
+    <value>buttonRfidInventory</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Name" xml:space="preserve">
+    <value>buttonRfidConnect</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 258</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnExcelSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 210</value>
+  </data>
+  <data name="btnExcelSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 86</value>
+  </data>
+  <data name="btnExcelSave.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnExcelSave.Text" xml:space="preserve">
+    <value>Excel Save</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Name" xml:space="preserve">
+    <value>btnExcelSave</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btnExcelSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnInvenStop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnInvenStop.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInvenStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnInvenStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 211</value>
+  </data>
+  <data name="btnInvenStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 40</value>
+  </data>
+  <data name="btnInvenStop.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnInvenStop.Text" xml:space="preserve">
+    <value>Inventory Stop</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Name" xml:space="preserve">
+    <value>btnInvenStop</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnInvenStop.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Time :</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxComList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 30</value>
+  </data>
+  <data name="comboBoxComList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 31</value>
+  </data>
+  <data name="comboBoxComList.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Name" xml:space="preserve">
+    <value>comboBoxComList</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxComList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 134</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelRfidInventoryElapsedTimeValue.Text" xml:space="preserve">
+    <value>00:00:00.0</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Name" xml:space="preserve">
+    <value>labelRfidInventoryElapsedTimeValue</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonComSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="buttonComSearch.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonComSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 30</value>
+  </data>
+  <data name="buttonComSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 31</value>
+  </data>
+  <data name="buttonComSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonComSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Name" xml:space="preserve">
+    <value>buttonComSearch</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonComSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonRfidInventory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="buttonRfidInventory.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonRfidInventory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonRfidInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 165</value>
+  </data>
+  <data name="buttonRfidInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 40</value>
+  </data>
+  <data name="buttonRfidInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonRfidInventory.Text" xml:space="preserve">
+    <value>Inventory Start</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Name" xml:space="preserve">
+    <value>buttonRfidInventory</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidInventory.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonRfidConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="buttonRfidConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonRfidConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 73</value>
+  </data>
+  <data name="buttonRfidConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 48</value>
+  </data>
+  <data name="buttonRfidConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonRfidConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Name" xml:space="preserve">
+    <value>buttonRfidConnect</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonRfidConnect.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Name" xml:space="preserve">
+    <value>listViewAntTagData</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Name" xml:space="preserve">
+    <value>labelEventAntNum</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 272</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 218</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="listViewAntTagData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listViewAntTagData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="listViewAntTagData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 158</value>
+  </data>
+  <data name="listViewAntTagData.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Name" xml:space="preserve">
+    <value>listViewAntTagData</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;listViewAntTagData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colEpc.Text" xml:space="preserve">
+    <value>Epc</value>
+  </data>
+  <data name="colEpc.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colRssi.Text" xml:space="preserve">
+    <value>Rssi</value>
+  </data>
+  <data name="colRssi.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 27</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 23</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ant :</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelEventAntNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelEventAntNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelEventAntNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 27</value>
+  </data>
+  <data name="labelEventAntNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 23</value>
+  </data>
+  <data name="labelEventAntNum.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelEventAntNum.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Name" xml:space="preserve">
+    <value>labelEventAntNum</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;labelEventAntNum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 401</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBoxTagSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Name" xml:space="preserve">
+    <value>textBoxSearchTag</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Parent" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Name" xml:space="preserve">
+    <value>buttonSearchTag</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Parent" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxTagSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 492</value>
+  </data>
+  <data name="groupBoxTagSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBoxTagSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBoxTagSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 73</value>
+  </data>
+  <data name="groupBoxTagSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBoxTagSearch.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Name" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxSearchTag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="textBoxSearchTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="textBoxSearchTag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="textBoxSearchTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 30</value>
+  </data>
+  <data name="textBoxSearchTag.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Name" xml:space="preserve">
+    <value>textBoxSearchTag</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.Parent" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;textBoxSearchTag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonSearchTag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="buttonSearchTag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSearchTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 31</value>
+  </data>
+  <data name="buttonSearchTag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="buttonSearchTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 28</value>
+  </data>
+  <data name="buttonSearchTag.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonSearchTag.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Name" xml:space="preserve">
+    <value>buttonSearchTag</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.Parent" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;buttonSearchTag.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timerAntNoCheck.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>651, 7</value>
+  </metadata>
+  <metadata name="timerLocationNoCheck.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>451, 6</value>
+  </metadata>
+  <data name="LVDebugMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LVDebugMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="LVDebugMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 537</value>
+  </data>
+  <data name="LVDebugMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LVDebugMode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Name" xml:space="preserve">
+    <value>LVDebugMode</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>Ant</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>buffer1</value>
+  </data>
+  <data name="columnHeader11.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>buffer2</value>
+  </data>
+  <data name="columnHeader12.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>buffer3</value>
+  </data>
+  <data name="columnHeader13.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>buffer4</value>
+  </data>
+  <data name="columnHeader14.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>buffer5</value>
+  </data>
+  <data name="columnHeader15.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>buffer6</value>
+  </data>
+  <data name="columnHeader16.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader17.Text" xml:space="preserve">
+    <value>buffer7</value>
+  </data>
+  <data name="columnHeader17.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader18.Text" xml:space="preserve">
+    <value>buffer8</value>
+  </data>
+  <data name="columnHeader18.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader19.Text" xml:space="preserve">
+    <value>buffer9</value>
+  </data>
+  <data name="columnHeader19.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader20.Text" xml:space="preserve">
+    <value>buffer10</value>
+  </data>
+  <data name="columnHeader20.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader21.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="columnHeader21.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="columnHeader22.Text" xml:space="preserve">
+    <value>BufferLocation</value>
+  </data>
+  <data name="columnHeader22.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="buffersize.Text" xml:space="preserve">
+    <value>buffersize</value>
+  </data>
+  <data name="buffersize.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="InventoryTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>802, 7</value>
+  </metadata>
+  <metadata name="InventoryStopTImer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 7</value>
+  </metadata>
+  <data name="listViewTagDataView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="listViewTagDataView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="listViewTagDataView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 537</value>
+  </data>
+  <data name="listViewTagDataView.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="listViewTagDataView.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;listViewTagDataView.Name" xml:space="preserve">
+    <value>listViewTagDataView</value>
+  </data>
+  <data name="&gt;&gt;listViewTagDataView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listViewTagDataView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listViewTagDataView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Name" xml:space="preserve">
+    <value>tabPageTableMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Parent" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Name" xml:space="preserve">
+    <value>tabPageListMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Parent" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControlModeTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 43</value>
+  </data>
+  <data name="tabControlModeTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 28</value>
+  </data>
+  <data name="tabControlModeTab.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Name" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageTableMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 32</value>
+  </data>
+  <data name="tabPageTableMode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageTableMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 0</value>
+  </data>
+  <data name="tabPageTableMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageTableMode.Text" xml:space="preserve">
+    <value>TableMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Name" xml:space="preserve">
+    <value>tabPageTableMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.Parent" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabPageTableMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageListMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 32</value>
+  </data>
+  <data name="tabPageListMode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageListMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 0</value>
+  </data>
+  <data name="tabPageListMode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageListMode.Text" xml:space="preserve">
+    <value>ListMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Name" xml:space="preserve">
+    <value>tabPageListMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.Parent" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabPageListMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tagDataView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView1.Name" xml:space="preserve">
+    <value>tagDataView1</value>
+  </data>
+  <data name="&gt;&gt;tagDataView1.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView2.Name" xml:space="preserve">
+    <value>tagDataView2</value>
+  </data>
+  <data name="&gt;&gt;tagDataView2.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView3.Name" xml:space="preserve">
+    <value>tagDataView3</value>
+  </data>
+  <data name="&gt;&gt;tagDataView3.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView4.Name" xml:space="preserve">
+    <value>tagDataView4</value>
+  </data>
+  <data name="&gt;&gt;tagDataView4.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView5.Name" xml:space="preserve">
+    <value>tagDataView5</value>
+  </data>
+  <data name="&gt;&gt;tagDataView5.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView6.Name" xml:space="preserve">
+    <value>tagDataView6</value>
+  </data>
+  <data name="&gt;&gt;tagDataView6.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView7.Name" xml:space="preserve">
+    <value>tagDataView7</value>
+  </data>
+  <data name="&gt;&gt;tagDataView7.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView8.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView8.Name" xml:space="preserve">
+    <value>tagDataView8</value>
+  </data>
+  <data name="&gt;&gt;tagDataView8.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView9.Name" xml:space="preserve">
+    <value>tagDataView9</value>
+  </data>
+  <data name="&gt;&gt;tagDataView9.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView10.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView10.Name" xml:space="preserve">
+    <value>tagDataView10</value>
+  </data>
+  <data name="&gt;&gt;tagDataView10.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView11.Name" xml:space="preserve">
+    <value>tagDataView11</value>
+  </data>
+  <data name="&gt;&gt;tagDataView11.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView12.Name" xml:space="preserve">
+    <value>tagDataView12</value>
+  </data>
+  <data name="&gt;&gt;tagDataView12.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView13.Name" xml:space="preserve">
+    <value>tagDataView13</value>
+  </data>
+  <data name="&gt;&gt;tagDataView13.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView14.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView14.Name" xml:space="preserve">
+    <value>tagDataView14</value>
+  </data>
+  <data name="&gt;&gt;tagDataView14.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView15.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView15.Name" xml:space="preserve">
+    <value>tagDataView15</value>
+  </data>
+  <data name="&gt;&gt;tagDataView15.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView16.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView16.Name" xml:space="preserve">
+    <value>tagDataView16</value>
+  </data>
+  <data name="&gt;&gt;tagDataView16.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView17.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView17.Name" xml:space="preserve">
+    <value>tagDataView17</value>
+  </data>
+  <data name="&gt;&gt;tagDataView17.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView18.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView18.Name" xml:space="preserve">
+    <value>tagDataView18</value>
+  </data>
+  <data name="&gt;&gt;tagDataView18.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView19.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView19.Name" xml:space="preserve">
+    <value>tagDataView19</value>
+  </data>
+  <data name="&gt;&gt;tagDataView19.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView20.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView20.Name" xml:space="preserve">
+    <value>tagDataView20</value>
+  </data>
+  <data name="&gt;&gt;tagDataView20.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView21.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView21.Name" xml:space="preserve">
+    <value>tagDataView21</value>
+  </data>
+  <data name="&gt;&gt;tagDataView21.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView22.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView22.Name" xml:space="preserve">
+    <value>tagDataView22</value>
+  </data>
+  <data name="&gt;&gt;tagDataView22.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView23.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView23.Name" xml:space="preserve">
+    <value>tagDataView23</value>
+  </data>
+  <data name="&gt;&gt;tagDataView23.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView24.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView24.Name" xml:space="preserve">
+    <value>tagDataView24</value>
+  </data>
+  <data name="&gt;&gt;tagDataView24.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView25.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView25.Name" xml:space="preserve">
+    <value>tagDataView25</value>
+  </data>
+  <data name="&gt;&gt;tagDataView25.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView26.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView26.Name" xml:space="preserve">
+    <value>tagDataView26</value>
+  </data>
+  <data name="&gt;&gt;tagDataView26.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView27.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView27.Name" xml:space="preserve">
+    <value>tagDataView27</value>
+  </data>
+  <data name="&gt;&gt;tagDataView27.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView28.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView28.Name" xml:space="preserve">
+    <value>tagDataView28</value>
+  </data>
+  <data name="&gt;&gt;tagDataView28.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView29.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView29.Name" xml:space="preserve">
+    <value>tagDataView29</value>
+  </data>
+  <data name="&gt;&gt;tagDataView29.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView30.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView30.Name" xml:space="preserve">
+    <value>tagDataView30</value>
+  </data>
+  <data name="&gt;&gt;tagDataView30.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView31.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView31.Name" xml:space="preserve">
+    <value>tagDataView31</value>
+  </data>
+  <data name="&gt;&gt;tagDataView31.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView32.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView32.Name" xml:space="preserve">
+    <value>tagDataView32</value>
+  </data>
+  <data name="&gt;&gt;tagDataView32.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView33.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView33.Name" xml:space="preserve">
+    <value>tagDataView33</value>
+  </data>
+  <data name="&gt;&gt;tagDataView33.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView34.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView34.Name" xml:space="preserve">
+    <value>tagDataView34</value>
+  </data>
+  <data name="&gt;&gt;tagDataView34.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView35.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView35.Name" xml:space="preserve">
+    <value>tagDataView35</value>
+  </data>
+  <data name="&gt;&gt;tagDataView35.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView36.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView36.Name" xml:space="preserve">
+    <value>tagDataView36</value>
+  </data>
+  <data name="&gt;&gt;tagDataView36.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView37.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView37.Name" xml:space="preserve">
+    <value>tagDataView37</value>
+  </data>
+  <data name="&gt;&gt;tagDataView37.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView38.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView38.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView38.Name" xml:space="preserve">
+    <value>tagDataView38</value>
+  </data>
+  <data name="&gt;&gt;tagDataView38.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView39.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView39.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView39.Name" xml:space="preserve">
+    <value>tagDataView39</value>
+  </data>
+  <data name="&gt;&gt;tagDataView39.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView40.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView40.Name" xml:space="preserve">
+    <value>tagDataView40</value>
+  </data>
+  <data name="&gt;&gt;tagDataView40.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView41.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView41.Name" xml:space="preserve">
+    <value>tagDataView41</value>
+  </data>
+  <data name="&gt;&gt;tagDataView41.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView42.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView42.Name" xml:space="preserve">
+    <value>tagDataView42</value>
+  </data>
+  <data name="&gt;&gt;tagDataView42.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView43.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView43.Name" xml:space="preserve">
+    <value>tagDataView43</value>
+  </data>
+  <data name="&gt;&gt;tagDataView43.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView44.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView44.Name" xml:space="preserve">
+    <value>tagDataView44</value>
+  </data>
+  <data name="&gt;&gt;tagDataView44.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView45.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView45.Name" xml:space="preserve">
+    <value>tagDataView45</value>
+  </data>
+  <data name="&gt;&gt;tagDataView45.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView46.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView46.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView46.Name" xml:space="preserve">
+    <value>tagDataView46</value>
+  </data>
+  <data name="&gt;&gt;tagDataView46.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView47.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView47.Name" xml:space="preserve">
+    <value>tagDataView47</value>
+  </data>
+  <data name="&gt;&gt;tagDataView47.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView48.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView48.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView48.Name" xml:space="preserve">
+    <value>tagDataView48</value>
+  </data>
+  <data name="&gt;&gt;tagDataView48.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView49.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView49.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView49.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView49.Name" xml:space="preserve">
+    <value>tagDataView49</value>
+  </data>
+  <data name="&gt;&gt;tagDataView49.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView50.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView50.Name" xml:space="preserve">
+    <value>tagDataView50</value>
+  </data>
+  <data name="&gt;&gt;tagDataView50.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView51.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView51.Name" xml:space="preserve">
+    <value>tagDataView51</value>
+  </data>
+  <data name="&gt;&gt;tagDataView51.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView52.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView52.Name" xml:space="preserve">
+    <value>tagDataView52</value>
+  </data>
+  <data name="&gt;&gt;tagDataView52.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView53.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView53.Name" xml:space="preserve">
+    <value>tagDataView53</value>
+  </data>
+  <data name="&gt;&gt;tagDataView53.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView54.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView54.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView54.Name" xml:space="preserve">
+    <value>tagDataView54</value>
+  </data>
+  <data name="&gt;&gt;tagDataView54.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView55.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView55.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView55.Name" xml:space="preserve">
+    <value>tagDataView55</value>
+  </data>
+  <data name="&gt;&gt;tagDataView55.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView56.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView56.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView56.Name" xml:space="preserve">
+    <value>tagDataView56</value>
+  </data>
+  <data name="&gt;&gt;tagDataView56.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView57.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView57.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView57.Name" xml:space="preserve">
+    <value>tagDataView57</value>
+  </data>
+  <data name="&gt;&gt;tagDataView57.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView58.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView58.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView58.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView58.Name" xml:space="preserve">
+    <value>tagDataView58</value>
+  </data>
+  <data name="&gt;&gt;tagDataView58.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView59.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView59.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView59.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView59.Name" xml:space="preserve">
+    <value>tagDataView59</value>
+  </data>
+  <data name="&gt;&gt;tagDataView59.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView60.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView60.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView60.Name" xml:space="preserve">
+    <value>tagDataView60</value>
+  </data>
+  <data name="&gt;&gt;tagDataView60.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView61.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView61.Name" xml:space="preserve">
+    <value>tagDataView61</value>
+  </data>
+  <data name="&gt;&gt;tagDataView61.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView62.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView62.Name" xml:space="preserve">
+    <value>tagDataView62</value>
+  </data>
+  <data name="&gt;&gt;tagDataView62.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView63.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView63.Name" xml:space="preserve">
+    <value>tagDataView63</value>
+  </data>
+  <data name="&gt;&gt;tagDataView63.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView64.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView64.Name" xml:space="preserve">
+    <value>tagDataView64</value>
+  </data>
+  <data name="&gt;&gt;tagDataView64.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView65.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView65.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView65.Name" xml:space="preserve">
+    <value>tagDataView65</value>
+  </data>
+  <data name="&gt;&gt;tagDataView65.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView66.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView66.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView66.Name" xml:space="preserve">
+    <value>tagDataView66</value>
+  </data>
+  <data name="&gt;&gt;tagDataView66.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView67.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView67.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView67.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView67.Name" xml:space="preserve">
+    <value>tagDataView67</value>
+  </data>
+  <data name="&gt;&gt;tagDataView67.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView68.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView68.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView68.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView68.Name" xml:space="preserve">
+    <value>tagDataView68</value>
+  </data>
+  <data name="&gt;&gt;tagDataView68.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView69.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView69.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView69.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView69.Name" xml:space="preserve">
+    <value>tagDataView69</value>
+  </data>
+  <data name="&gt;&gt;tagDataView69.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView70.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView70.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView70.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView70.Name" xml:space="preserve">
+    <value>tagDataView70</value>
+  </data>
+  <data name="&gt;&gt;tagDataView70.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView71.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView71.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView71.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView71.Name" xml:space="preserve">
+    <value>tagDataView71</value>
+  </data>
+  <data name="&gt;&gt;tagDataView71.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView72.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView72.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView72.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView72.Name" xml:space="preserve">
+    <value>tagDataView72</value>
+  </data>
+  <data name="&gt;&gt;tagDataView72.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView73.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView73.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView73.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView73.Name" xml:space="preserve">
+    <value>tagDataView73</value>
+  </data>
+  <data name="&gt;&gt;tagDataView73.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView74.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView74.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView74.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView74.Name" xml:space="preserve">
+    <value>tagDataView74</value>
+  </data>
+  <data name="&gt;&gt;tagDataView74.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView75.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView75.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView75.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView75.Name" xml:space="preserve">
+    <value>tagDataView75</value>
+  </data>
+  <data name="&gt;&gt;tagDataView75.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView76.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView76.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView76.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView76.Name" xml:space="preserve">
+    <value>tagDataView76</value>
+  </data>
+  <data name="&gt;&gt;tagDataView76.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView77.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView77.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView77.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView77.Name" xml:space="preserve">
+    <value>tagDataView77</value>
+  </data>
+  <data name="&gt;&gt;tagDataView77.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView78.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView78.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView78.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView78.Name" xml:space="preserve">
+    <value>tagDataView78</value>
+  </data>
+  <data name="&gt;&gt;tagDataView78.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView79.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView79.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView79.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView79.Name" xml:space="preserve">
+    <value>tagDataView79</value>
+  </data>
+  <data name="&gt;&gt;tagDataView79.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView80.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView80.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView80.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView80.Name" xml:space="preserve">
+    <value>tagDataView80</value>
+  </data>
+  <data name="&gt;&gt;tagDataView80.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView81.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView81.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView81.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView81.Name" xml:space="preserve">
+    <value>tagDataView81</value>
+  </data>
+  <data name="&gt;&gt;tagDataView81.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView82.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView82.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView82.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView82.Name" xml:space="preserve">
+    <value>tagDataView82</value>
+  </data>
+  <data name="&gt;&gt;tagDataView82.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView83.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView83.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView83.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView83.Name" xml:space="preserve">
+    <value>tagDataView83</value>
+  </data>
+  <data name="&gt;&gt;tagDataView83.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView84.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView84.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView84.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView84.Name" xml:space="preserve">
+    <value>tagDataView84</value>
+  </data>
+  <data name="&gt;&gt;tagDataView84.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView85.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView85.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView85.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView85.Name" xml:space="preserve">
+    <value>tagDataView85</value>
+  </data>
+  <data name="&gt;&gt;tagDataView85.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView86.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView86.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView86.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView86.Name" xml:space="preserve">
+    <value>tagDataView86</value>
+  </data>
+  <data name="&gt;&gt;tagDataView86.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView87.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView87.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView87.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView87.Name" xml:space="preserve">
+    <value>tagDataView87</value>
+  </data>
+  <data name="&gt;&gt;tagDataView87.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView88.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView88.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView88.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView88.Name" xml:space="preserve">
+    <value>tagDataView88</value>
+  </data>
+  <data name="&gt;&gt;tagDataView88.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView89.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView89.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView89.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView89.Name" xml:space="preserve">
+    <value>tagDataView89</value>
+  </data>
+  <data name="&gt;&gt;tagDataView89.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView90.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView90.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView90.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView90.Name" xml:space="preserve">
+    <value>tagDataView90</value>
+  </data>
+  <data name="&gt;&gt;tagDataView90.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView91.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView91.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView91.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView91.Name" xml:space="preserve">
+    <value>tagDataView91</value>
+  </data>
+  <data name="&gt;&gt;tagDataView91.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView92.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView92.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView92.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView92.Name" xml:space="preserve">
+    <value>tagDataView92</value>
+  </data>
+  <data name="&gt;&gt;tagDataView92.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView93.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView93.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView93.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView93.Name" xml:space="preserve">
+    <value>tagDataView93</value>
+  </data>
+  <data name="&gt;&gt;tagDataView93.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView94.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView94.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView94.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView94.Name" xml:space="preserve">
+    <value>tagDataView94</value>
+  </data>
+  <data name="&gt;&gt;tagDataView94.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView95.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView95.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView95.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView95.Name" xml:space="preserve">
+    <value>tagDataView95</value>
+  </data>
+  <data name="&gt;&gt;tagDataView95.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView96.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView96.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView96.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView96.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView96.Name" xml:space="preserve">
+    <value>tagDataView96</value>
+  </data>
+  <data name="&gt;&gt;tagDataView96.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView97.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView97.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView97.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView97.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView97.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView97.Name" xml:space="preserve">
+    <value>tagDataView97</value>
+  </data>
+  <data name="&gt;&gt;tagDataView97.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView98.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView98.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView98.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView98.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView98.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView98.Name" xml:space="preserve">
+    <value>tagDataView98</value>
+  </data>
+  <data name="&gt;&gt;tagDataView98.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView99.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView99.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView99.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView99.Name" xml:space="preserve">
+    <value>tagDataView99</value>
+  </data>
+  <data name="&gt;&gt;tagDataView99.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView100.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView100.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView100.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView100.Name" xml:space="preserve">
+    <value>tagDataView100</value>
+  </data>
+  <data name="&gt;&gt;tagDataView100.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView101.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView101.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView101.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView101.Name" xml:space="preserve">
+    <value>tagDataView101</value>
+  </data>
+  <data name="&gt;&gt;tagDataView101.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView102.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView102.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView102.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView102.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView102.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView102.Name" xml:space="preserve">
+    <value>tagDataView102</value>
+  </data>
+  <data name="&gt;&gt;tagDataView102.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView103.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView103.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView103.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView103.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView103.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView103.Name" xml:space="preserve">
+    <value>tagDataView103</value>
+  </data>
+  <data name="&gt;&gt;tagDataView103.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView104.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView104.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView104.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView104.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView104.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView104.Name" xml:space="preserve">
+    <value>tagDataView104</value>
+  </data>
+  <data name="&gt;&gt;tagDataView104.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView105.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView105.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView105.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView105.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView105.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView105.Name" xml:space="preserve">
+    <value>tagDataView105</value>
+  </data>
+  <data name="&gt;&gt;tagDataView105.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView106.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView106.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView106.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView106.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView106.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView106.Name" xml:space="preserve">
+    <value>tagDataView106</value>
+  </data>
+  <data name="&gt;&gt;tagDataView106.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView107.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView107.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView107.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView107.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView107.Name" xml:space="preserve">
+    <value>tagDataView107</value>
+  </data>
+  <data name="&gt;&gt;tagDataView107.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView108.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView108.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView108.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView108.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView108.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView108.Name" xml:space="preserve">
+    <value>tagDataView108</value>
+  </data>
+  <data name="&gt;&gt;tagDataView108.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView109.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView109.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView109.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView109.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView109.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView109.Name" xml:space="preserve">
+    <value>tagDataView109</value>
+  </data>
+  <data name="&gt;&gt;tagDataView109.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView110.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView110.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView110.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView110.Name" xml:space="preserve">
+    <value>tagDataView110</value>
+  </data>
+  <data name="&gt;&gt;tagDataView110.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView111.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView111.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView111.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView111.Name" xml:space="preserve">
+    <value>tagDataView111</value>
+  </data>
+  <data name="&gt;&gt;tagDataView111.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView112.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView112.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView112.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView112.Name" xml:space="preserve">
+    <value>tagDataView112</value>
+  </data>
+  <data name="&gt;&gt;tagDataView112.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView113.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView113.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView113.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView113.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView113.Name" xml:space="preserve">
+    <value>tagDataView113</value>
+  </data>
+  <data name="&gt;&gt;tagDataView113.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView114.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView114.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView114.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView114.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView114.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView114.Name" xml:space="preserve">
+    <value>tagDataView114</value>
+  </data>
+  <data name="&gt;&gt;tagDataView114.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView115.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView115.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView115.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView115.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView115.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView115.Name" xml:space="preserve">
+    <value>tagDataView115</value>
+  </data>
+  <data name="&gt;&gt;tagDataView115.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView116.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView116.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView116.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView116.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView116.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView116.Name" xml:space="preserve">
+    <value>tagDataView116</value>
+  </data>
+  <data name="&gt;&gt;tagDataView116.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView117.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView117.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView117.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView117.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView117.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView117.Name" xml:space="preserve">
+    <value>tagDataView117</value>
+  </data>
+  <data name="&gt;&gt;tagDataView117.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView118.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView118.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView118.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView118.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView118.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView118.Name" xml:space="preserve">
+    <value>tagDataView118</value>
+  </data>
+  <data name="&gt;&gt;tagDataView118.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView119.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView119.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView119.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView119.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView119.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView119.Name" xml:space="preserve">
+    <value>tagDataView119</value>
+  </data>
+  <data name="&gt;&gt;tagDataView119.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView120.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView120.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView120.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView120.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView120.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView120.Name" xml:space="preserve">
+    <value>tagDataView120</value>
+  </data>
+  <data name="&gt;&gt;tagDataView120.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView121.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView121.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView121.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView121.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView121.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView121.Name" xml:space="preserve">
+    <value>tagDataView121</value>
+  </data>
+  <data name="&gt;&gt;tagDataView121.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView122.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView122.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView122.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView122.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView122.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView122.Name" xml:space="preserve">
+    <value>tagDataView122</value>
+  </data>
+  <data name="&gt;&gt;tagDataView122.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView123.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView123.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView123.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView123.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView123.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView123.Name" xml:space="preserve">
+    <value>tagDataView123</value>
+  </data>
+  <data name="&gt;&gt;tagDataView123.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView124.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView124.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView124.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView124.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView124.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView124.Name" xml:space="preserve">
+    <value>tagDataView124</value>
+  </data>
+  <data name="&gt;&gt;tagDataView124.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView125.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView125.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView125.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView125.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView125.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView125.Name" xml:space="preserve">
+    <value>tagDataView125</value>
+  </data>
+  <data name="&gt;&gt;tagDataView125.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView126.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView126.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView126.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView126.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView126.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView126.Name" xml:space="preserve">
+    <value>tagDataView126</value>
+  </data>
+  <data name="&gt;&gt;tagDataView126.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView127.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView127.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView127.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView127.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView127.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView127.Name" xml:space="preserve">
+    <value>tagDataView127</value>
+  </data>
+  <data name="&gt;&gt;tagDataView127.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tagDataView128.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="tagDataView128.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tagDataView128.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="tagDataView128.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 140</value>
+  </data>
+  <data name="tagDataView128.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tagDataView128.Name" xml:space="preserve">
+    <value>tagDataView128</value>
+  </data>
+  <data name="&gt;&gt;tagDataView128.Type" xml:space="preserve">
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 23</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 636</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;memuToolStripMenuItem.Name" xml:space="preserve">
+    <value>memuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;memuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;korToolStripMenuItem.Name" xml:space="preserve">
+    <value>korToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;korToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engToolStripMenuItem.Name" xml:space="preserve">
+    <value>engToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;engToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingToolStripMenuItem.Name" xml:space="preserve">
+    <value>settingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;settingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;defaultSettingsToolStripMenuItem.Name" xml:space="preserve">
+    <value>defaultSettingsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;defaultSettingsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modeSettingToolStripMenuItem.Name" xml:space="preserve">
+    <value>modeSettingToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;modeSettingToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;viewModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>tableModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tableModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>listModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;listModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;debugModeToolStripMenuItem.Name" xml:space="preserve">
+    <value>debugModeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;debugModeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colEpc.Name" xml:space="preserve">
+    <value>colEpc</value>
+  </data>
+  <data name="&gt;&gt;colEpc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colRssi.Name" xml:space="preserve">
+    <value>colRssi</value>
+  </data>
+  <data name="&gt;&gt;colRssi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerAntNoCheck.Name" xml:space="preserve">
+    <value>timerAntNoCheck</value>
+  </data>
+  <data name="&gt;&gt;timerAntNoCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerLocationNoCheck.Name" xml:space="preserve">
+    <value>timerLocationNoCheck</value>
+  </data>
+  <data name="&gt;&gt;timerLocationNoCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Name" xml:space="preserve">
+    <value>columnHeader10</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Name" xml:space="preserve">
+    <value>columnHeader11</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Name" xml:space="preserve">
+    <value>columnHeader12</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Name" xml:space="preserve">
+    <value>columnHeader13</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Name" xml:space="preserve">
+    <value>columnHeader14</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Name" xml:space="preserve">
+    <value>columnHeader15</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Name" xml:space="preserve">
+    <value>columnHeader16</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader17.Name" xml:space="preserve">
+    <value>columnHeader17</value>
+  </data>
+  <data name="&gt;&gt;columnHeader17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader18.Name" xml:space="preserve">
+    <value>columnHeader18</value>
+  </data>
+  <data name="&gt;&gt;columnHeader18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader19.Name" xml:space="preserve">
+    <value>columnHeader19</value>
+  </data>
+  <data name="&gt;&gt;columnHeader19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader20.Name" xml:space="preserve">
+    <value>columnHeader20</value>
+  </data>
+  <data name="&gt;&gt;columnHeader20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader21.Name" xml:space="preserve">
+    <value>columnHeader21</value>
+  </data>
+  <data name="&gt;&gt;columnHeader21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader22.Name" xml:space="preserve">
+    <value>columnHeader22</value>
+  </data>
+  <data name="&gt;&gt;columnHeader22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buffersize.Name" xml:space="preserve">
+    <value>buffersize</value>
+  </data>
+  <data name="&gt;&gt;buffersize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InventoryTimer.Name" xml:space="preserve">
+    <value>InventoryTimer</value>
+  </data>
+  <data name="&gt;&gt;InventoryTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InventoryStopTImer.Name" xml:space="preserve">
+    <value>InventoryStopTImer</value>
+  </data>
+  <data name="&gt;&gt;InventoryStopTImer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ATMW</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

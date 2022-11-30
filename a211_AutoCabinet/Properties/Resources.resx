@@ -1,0 +1,2057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="." xml:space="preserve">
+    <value />
+  </data>
+  <data name="DevTitleAddReader" xml:space="preserve">
+    <value>Add Reader</value>
+  </data>
+  <data name="DevTitleEditReader" xml:space="preserve">
+    <value>Edit Reader</value>
+  </data>
+  <data name="ExcelFileFilter" xml:space="preserve">
+    <value>Excel files (*.xls;*.xlsx)|*.xls;*.xlsx|All files (*.*)|*.*</value>
+  </data>
+  <data name="ExcelOpenTitle" xml:space="preserve">
+    <value>Open Invoice List Excel File</value>
+  </data>
+  <data name="ExcelSaveTitle" xml:space="preserve">
+    <value>Save Invoice Result Excel File</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String2DigitAddenda" xml:space="preserve">
+    <value>2 Digit Addenda</value>
+  </data>
+  <data name="String5DigitAddenda" xml:space="preserve">
+    <value>5 Digit Addenda</value>
+  </data>
+  <data name="StringAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="StringAccessPassword" xml:space="preserve">
+    <value>Access Password</value>
+  </data>
+  <data name="StringAccessPasswordSetting" xml:space="preserve">
+    <value>Access Password Setting</value>
+  </data>
+  <data name="StringAccessSettings" xml:space="preserve">
+    <value>Access Settings</value>
+  </data>
+  <data name="StringAccessTimeoutNotSmallerThanInterval" xml:space="preserve">
+    <value>Access timeout cannot be smaller than retry interval!</value>
+  </data>
+  <data name="StringAction" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="StringAction1" xml:space="preserve">
+    <value>Assert SL or inventoried → A  /  Deassert SL or inventoried → B</value>
+  </data>
+  <data name="StringAction2" xml:space="preserve">
+    <value>Assert SL or inventoried → A  /  Do nothing</value>
+  </data>
+  <data name="StringAction3" xml:space="preserve">
+    <value>Do nothing  /  Deassert SL or inventoried → B</value>
+  </data>
+  <data name="StringAction4" xml:space="preserve">
+    <value>Negate SL or (A → B, B → A)  /  Do nothing</value>
+  </data>
+  <data name="StringAction5" xml:space="preserve">
+    <value>Deassert SL or inventoried → B  /  Assert SL or inventoried → A</value>
+  </data>
+  <data name="StringAction6" xml:space="preserve">
+    <value>Deassert SL or inventoried → B  /  Do nothing</value>
+  </data>
+  <data name="StringAction7" xml:space="preserve">
+    <value>Do nothing  /  Assert SL or inventoried → A</value>
+  </data>
+  <data name="StringAction8" xml:space="preserve">
+    <value>Do nothing  /  Negate SL or (A → B, B → A)</value>
+  </data>
+  <data name="StringActivate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="StringAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="StringAddenda" xml:space="preserve">
+    <value>Addenda</value>
+  </data>
+  <data name="StringAddendaRequired" xml:space="preserve">
+    <value>Addenda Required</value>
+  </data>
+  <data name="StringAddendaSeparator" xml:space="preserve">
+    <value>Addenda Separator</value>
+  </data>
+  <data name="StringAddress" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="StringAdminCode" xml:space="preserve">
+    <value>Admin Code</value>
+  </data>
+  <data name="StringAdminCodeMismatch" xml:space="preserve">
+    <value>Admin code mismatch!</value>
+  </data>
+  <data name="StringAdminFunctionsUnlocked" xml:space="preserve">
+    <value>Admin functions unlocked!</value>
+  </data>
+  <data name="StringAdminSettings" xml:space="preserve">
+    <value>Admin Settings</value>
+  </data>
+  <data name="StringAdvanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="StringAdvancedSettings" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="StringAlgeria" xml:space="preserve">
+    <value>Algeria</value>
+  </data>
+  <data name="StringAmbientTemperature" xml:space="preserve">
+    <value>Ambient Temperature</value>
+  </data>
+  <data name="StringAmbientTemperatureCoefficients" xml:space="preserve">
+    <value>Ambient Temp(A2, A1, A0)</value>
+  </data>
+  <data name="StringAntenna" xml:space="preserve">
+    <value>Antenna</value>
+  </data>
+  <data name="StringAntennaPorts" xml:space="preserve">
+    <value>Ant. Ports</value>
+  </data>
+  <data name="StringAntennaResistance" xml:space="preserve">
+    <value>Antenna Resistance</value>
+  </data>
+  <data name="StringAntennaResistanceCoefficients" xml:space="preserve">
+    <value>Antenna Resistance(A2, A1, A0)</value>
+  </data>
+  <data name="StringAntennaSettings" xml:space="preserve">
+    <value>Antenna Settings</value>
+  </data>
+  <data name="StringAntFailedSave" xml:space="preserve">
+    <value>Failed Save</value>
+  </data>
+  <data name="StringAntSave" xml:space="preserve">
+    <value>Success Save</value>
+  </data>
+  <data name="StringAnyLength" xml:space="preserve">
+    <value>Any Length</value>
+  </data>
+  <data name="StringApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="StringAppNameAndVersion" xml:space="preserve">
+    <value>RFID Module SDK Demo v1.07.01</value>
+  </data>
+  <data name="StringAssert" xml:space="preserve">
+    <value>Assert</value>
+  </data>
+  <data name="StringAustralia" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="StringAustraliaPost" xml:space="preserve">
+    <value>Australia Post</value>
+  </data>
+  <data name="StringAustraliaPostFormat" xml:space="preserve">
+    <value>Australia Post Format</value>
+  </data>
+  <data name="StringAuthenticate" xml:space="preserve">
+    <value>Authenticate</value>
+  </data>
+  <data name="StringAuthentication" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="StringAuthenticationSettings" xml:space="preserve">
+    <value>Authentication Settings</value>
+  </data>
+  <data name="StringAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="StringAutoRefresh" xml:space="preserve">
+    <value>Auto Refresh</value>
+  </data>
+  <data name="StringAvgSpeed" xml:space="preserve">
+    <value>Avg. Speed</value>
+  </data>
+  <data name="StringAztec" xml:space="preserve">
+    <value>Aztec</value>
+  </data>
+  <data name="StringAztecInverse" xml:space="preserve">
+    <value>Aztec Inverse</value>
+  </data>
+  <data name="StringBangladesh" xml:space="preserve">
+    <value>Bangladesh</value>
+  </data>
+  <data name="StringBank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="StringBarcode" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="StringBarcodeModule" xml:space="preserve">
+    <value>Barcode Module</value>
+  </data>
+  <data name="StringBarcodeScanner" xml:space="preserve">
+    <value>Barcode Scanner</value>
+  </data>
+  <data name="StringBaudrate" xml:space="preserve">
+    <value>Baudrate</value>
+  </data>
+  <data name="StringBaudrateChangedReconnectRemoteDevice" xml:space="preserve">
+    <value>The baudrate of RFID module has changed.
+Please disconnect and reconnect Rfid reader!</value>
+  </data>
+  <data name="StringBeepUniqueOnly" xml:space="preserve">
+    <value>Beep Unique Only</value>
+  </data>
+  <data name="StringBle" xml:space="preserve">
+    <value>BLE</value>
+  </data>
+  <data name="StringBlockAccess" xml:space="preserve">
+    <value>Block Access</value>
+  </data>
+  <data name="StringBlockErase" xml:space="preserve">
+    <value>Block Erase</value>
+  </data>
+  <data name="StringBlockWrite" xml:space="preserve">
+    <value>Block Write</value>
+  </data>
+  <data name="StringBluetoothBle" xml:space="preserve">
+    <value>Bluetooth BLE</value>
+  </data>
+  <data name="StringBluetoothSpp" xml:space="preserve">
+    <value>Bluetooth SPP</value>
+  </data>
+  <data name="StringBrazil" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+  <data name="StringBrunei" xml:space="preserve">
+    <value>Brunei</value>
+  </data>
+  <data name="StringBusy" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="StringByteAligned" xml:space="preserve">
+    <value>Byte Aligned</value>
+  </data>
+  <data name="StringCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="StringCertification" xml:space="preserve">
+    <value>Certification</value>
+  </data>
+  <data name="StringChallenge" xml:space="preserve">
+    <value>Challenge</value>
+  </data>
+  <data name="StringChallengeImmediate" xml:space="preserve">
+    <value>Immediate Response</value>
+  </data>
+  <data name="StringChallengeSettings" xml:space="preserve">
+    <value>Challenge Settings</value>
+  </data>
+  <data name="StringChangingGlobalRegion" xml:space="preserve">
+    <value>Changing Global Region</value>
+  </data>
+  <data name="StringChannel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="StringChannelHopping" xml:space="preserve">
+    <value>Channel Hopping</value>
+  </data>
+  <data name="StringChannelNumber" xml:space="preserve">
+    <value>Channel Number</value>
+  </data>
+  <data name="StringChans" xml:space="preserve">
+    <value>Chans</value>
+  </data>
+  <data name="StringCharge" xml:space="preserve">
+    <value>Charge</value>
+  </data>
+  <data name="StringCheck" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="StringCheckDigit" xml:space="preserve">
+    <value>Check Digit</value>
+  </data>
+  <data name="StringCheckDigitTransmit" xml:space="preserve">
+    <value>Check Digit Transmit</value>
+  </data>
+  <data name="StringCheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="StringCheckIsbtTable" xml:space="preserve">
+    <value>Check ISBT Table</value>
+  </data>
+  <data name="StringChina" xml:space="preserve">
+    <value>China</value>
+  </data>
+  <data name="StringChinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="StringChinese2of5" xml:space="preserve">
+    <value>Chinese 2 of 5</value>
+  </data>
+  <data name="StringClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="StringClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="StringClsiEditing" xml:space="preserve">
+    <value>CLSI Editing</value>
+  </data>
+  <data name="StringCodabar" xml:space="preserve">
+    <value>Codabar</value>
+  </data>
+  <data name="StringCode11" xml:space="preserve">
+    <value>Code 11</value>
+  </data>
+  <data name="StringCode11CheckDigitVerification" xml:space="preserve">
+    <value>Code11 Check Digit Verification</value>
+  </data>
+  <data name="StringCode128" xml:space="preserve">
+    <value>Code 128</value>
+  </data>
+  <data name="StringCode32Prefix" xml:space="preserve">
+    <value>Code 32 Prefix</value>
+  </data>
+  <data name="StringCode39" xml:space="preserve">
+    <value>Code 39</value>
+  </data>
+  <data name="StringCode39CheckDigitVerification" xml:space="preserve">
+    <value>Code 39 Check Digit Verification</value>
+  </data>
+  <data name="StringCode39FullAscii" xml:space="preserve">
+    <value>Code 39 Full ASCII</value>
+  </data>
+  <data name="StringCode93" xml:space="preserve">
+    <value>Code 93</value>
+  </data>
+  <data name="StringColorB" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="StringColorG" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="StringColorR" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="StringComposite" xml:space="preserve">
+    <value>Composite</value>
+  </data>
+  <data name="StringCompositeBeepMode" xml:space="preserve">
+    <value>Composite Beep Mode</value>
+  </data>
+  <data name="StringCompositeCcAb" xml:space="preserve">
+    <value>Composite CC-AB</value>
+  </data>
+  <data name="StringCompositeCcC" xml:space="preserve">
+    <value>Composite CC-C</value>
+  </data>
+  <data name="StringCompositeTlc39" xml:space="preserve">
+    <value>Composite TLC-39</value>
+  </data>
+  <data name="StringConcatenationRedundancy" xml:space="preserve">
+    <value>Concatenation Redundancy</value>
+  </data>
+  <data name="StringConnect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="StringConnecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="StringConnectionIsClosed" xml:space="preserve">
+    <value>Remote connection is closed by timeout or I/O error!</value>
+  </data>
+  <data name="StringConnectionTimeout" xml:space="preserve">
+    <value>Connection Timeout</value>
+  </data>
+  <data name="StringConnectionType" xml:space="preserve">
+    <value>Connection Type</value>
+  </data>
+  <data name="StringConnectState" xml:space="preserve">
+    <value>DisConnect</value>
+  </data>
+  <data name="StringContactTemperature" xml:space="preserve">
+    <value>Contact Temperature</value>
+  </data>
+  <data name="StringContinuousMode" xml:space="preserve">
+    <value>Continuous Mode</value>
+  </data>
+  <data name="StringConvertCode39ToCode32" xml:space="preserve">
+    <value>Convert Code 39 to Code 32</value>
+  </data>
+  <data name="StringConvertI2Of5ToEAN13" xml:space="preserve">
+    <value>Convert I 2 of 5 to EAN-13</value>
+  </data>
+  <data name="StringConvertRss14ToUpcEan" xml:space="preserve">
+    <value>Convert RSS-14 to UPC/EAN</value>
+  </data>
+  <data name="StringConvertUpcE1ToUpcA" xml:space="preserve">
+    <value>Convert UPC-E1 to UPC-A</value>
+  </data>
+  <data name="StringConvertUpcEToUpcA" xml:space="preserve">
+    <value>Convert UPC-E to UPC-A</value>
+  </data>
+  <data name="StringCopyright" xml:space="preserve">
+    <value>COPYRIGHT</value>
+  </data>
+  <data name="StringCopyrightContent1" xml:space="preserve">
+    <value>Copyright 2018-2020. Aplusetech Co.,Ltd. All rights reserved.</value>
+  </data>
+  <data name="StringCopyrightContent2" xml:space="preserve">
+    <value>The software is provided for user understanding how to use the device and application development. All software, including firmware, is on a licensed basis. 
+No right to copy a licensed program in whole or in part is granted, to other device except as permitted under copyright law.</value>
+  </data>
+  <data name="StringCopyToClipboard" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="StringCount" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="StringCr" xml:space="preserve">
+    <value>CR</value>
+  </data>
+  <data name="StringCrLr" xml:space="preserve">
+    <value>CR+LR</value>
+  </data>
+  <data name="StringCryptographySuite" xml:space="preserve">
+    <value>Cryptography Suite</value>
+  </data>
+  <data name="StringCryptoSettings" xml:space="preserve">
+    <value>Cryptography Settings</value>
+  </data>
+  <data name="StringCsi" xml:space="preserve">
+    <value>Cryptography Suite</value>
+  </data>
+  <data name="StringDataMatrix" xml:space="preserve">
+    <value>Data Matrix</value>
+  </data>
+  <data name="StringDataMatrixInverse" xml:space="preserve">
+    <value>Data Matrix Inverse</value>
+  </data>
+  <data name="StringDeassert" xml:space="preserve">
+    <value>Deassert</value>
+  </data>
+  <data name="StringDecodeSessionTimeout" xml:space="preserve">
+    <value>Decode Session Timeout</value>
+  </data>
+  <data name="StringDecodeUpcEanSupplementals" xml:space="preserve">
+    <value>Decode UPC/EAN Supplementals</value>
+  </data>
+  <data name="StringDecodeUpcEanSupplementalsRedundancy" xml:space="preserve">
+    <value>Decode UPC/EAN Supplementals Redundancy</value>
+  </data>
+  <data name="StringDecrypted" xml:space="preserve">
+    <value>Decrypted</value>
+  </data>
+  <data name="StringDefaults" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="StringDenseReaderMode" xml:space="preserve">
+    <value>DRM(Dense Reader Mode)</value>
+  </data>
+  <data name="StringDev" xml:space="preserve">
+    <value>Dev</value>
+  </data>
+  <data name="StringDeviceRegistraion" xml:space="preserve">
+    <value>The device is not currently registered.</value>
+  </data>
+  <data name="StringDeviceSuccessSetting" xml:space="preserve">
+    <value>Success Save</value>
+  </data>
+  <data name="StringDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="StringDisabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="StringDisconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="StringDisconnecting" xml:space="preserve">
+    <value>Disconnecting...</value>
+  </data>
+  <data name="StringDisConnectState" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="StringDiscrete2Of5" xml:space="preserve">
+    <value>Discrete 2 of 5</value>
+  </data>
+  <data name="StringDisplayMode" xml:space="preserve">
+    <value>Display Mode</value>
+  </data>
+  <data name="StringDwellTime" xml:space="preserve">
+    <value>Dwell Time</value>
+  </data>
+  <data name="StringEanZeroExtend" xml:space="preserve">
+    <value>EAN Zero Extend</value>
+  </data>
+  <data name="StringElapsedTime" xml:space="preserve">
+    <value>Elapsed Time</value>
+  </data>
+  <data name="StringEmptyString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StringEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="StringEnabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="StringEnableFileLog" xml:space="preserve">
+    <value>Enable File Log</value>
+  </data>
+  <data name="StringEnablePriorAuthentication" xml:space="preserve">
+    <value>Enable Prior Authentication</value>
+  </data>
+  <data name="StringEnablePriorChallenge" xml:space="preserve">
+    <value>Enable Prior Challenge</value>
+  </data>
+  <data name="StringEnergizingCarrier" xml:space="preserve">
+    <value>Energizing Carrier</value>
+  </data>
+  <data name="StringEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="StringEntry" xml:space="preserve">
+    <value>Entry(s)</value>
+  </data>
+  <data name="StringEpc" xml:space="preserve">
+    <value>EPC</value>
+  </data>
+  <data name="StringEpcMatchHeader" xml:space="preserve">
+    <value>EPC: </value>
+  </data>
+  <data name="StringEu" xml:space="preserve">
+    <value>EU</value>
+  </data>
+  <data name="StringExportFailed" xml:space="preserve">
+    <value>Export Failed!</value>
+  </data>
+  <data name="StringExportSuccess" xml:space="preserve">
+    <value>Export Success!</value>
+  </data>
+  <data name="StringExportToExcel" xml:space="preserve">
+    <value>Export to excel</value>
+  </data>
+  <data name="StringExportXlsFileExtension" xml:space="preserve">
+    <value>Excel files (*.xls)|*.xls|All files (*.*)|*.*</value>
+  </data>
+  <data name="StringExportXlsxFileExtension" xml:space="preserve">
+    <value>Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*</value>
+  </data>
+  <data name="StringFail" xml:space="preserve">
+    <value>Fail!</value>
+  </data>
+  <data name="StringFailedToActivateAuthenticationKey" xml:space="preserve">
+    <value>Failed to activate an authentication key!</value>
+  </data>
+  <data name="StringFailedToAuthenticateTag" xml:space="preserve">
+    <value>Failed to authenticate a tag!</value>
+  </data>
+  <data name="StringFailedToBlockErase" xml:space="preserve">
+    <value>Failed to blockErase!</value>
+  </data>
+  <data name="StringFailedToBlockPermaLock" xml:space="preserve">
+    <value>Failed to blockPermalock!</value>
+  </data>
+  <data name="StringFailedToBlockWrite" xml:space="preserve">
+    <value>Failed to blockWrite!</value>
+  </data>
+  <data name="StringFailedToChangeRegion" xml:space="preserve">
+    <value>Failed to change region!</value>
+  </data>
+  <data name="StringFailedToConnectRemoteReader" xml:space="preserve">
+    <value>Failed to connect to a remote reader device!</value>
+  </data>
+  <data name="StringFailedToConnectRemoteScanner" xml:space="preserve">
+    <value>Failed to connect to a remote scanner!</value>
+  </data>
+  <data name="StringFailedToGetRemoteReaderInstance" xml:space="preserve">
+    <value>Failed to get a remote reader device instance!</value>
+  </data>
+  <data name="StringFailedToGetRemoteScannerInstance" xml:space="preserve">
+    <value>Failed to get a remote scanner device instance!</value>
+  </data>
+  <data name="StringFailedToInsertAuthenticationKey" xml:space="preserve">
+    <value>Failed to insert an authentication key!</value>
+  </data>
+  <data name="StringFailedToKillTag" xml:space="preserve">
+    <value>Failed to kill Tag!</value>
+  </data>
+  <data name="StringFailedToLoadSymbologies" xml:space="preserve">
+    <value>Failed to load symbologies!</value>
+  </data>
+  <data name="StringFailedToLockTagMemory" xml:space="preserve">
+    <value>Failed to lock Tag memory!</value>
+  </data>
+  <data name="StringFailedToReadTagMemory" xml:space="preserve">
+    <value>Failed to read Tag memory!</value>
+  </data>
+  <data name="StringFailedToResetModule" xml:space="preserve">
+    <value>Failed to reset module!</value>
+  </data>
+  <data name="StringFailedToResetSettings" xml:space="preserve">
+    <value>Failed to reset settings!</value>
+  </data>
+  <data name="StringFailedToSaveSettings" xml:space="preserve">
+    <value>Failed to save settings!</value>
+  </data>
+  <data name="StringFailedToSaveSymbologies" xml:space="preserve">
+    <value>Failed to save symbologies!</value>
+  </data>
+  <data name="StringFailedToSaveSymbologySettings" xml:space="preserve">
+    <value>Failed to save symbology settings!</value>
+  </data>
+  <data name="StringFailedToSetAccessPassword" xml:space="preserve">
+    <value>Failed to set access password!</value>
+  </data>
+  <data name="StringFailedToSetAccessTimeout" xml:space="preserve">
+    <value>Failed to set access timeout!</value>
+  </data>
+  <data name="StringFailedToSetBaudrate" xml:space="preserve">
+    <value>Failed to set baudrate!</value>
+  </data>
+  <data name="StringFailedToSetChannelInfo" xml:space="preserve">
+    <value>Failed to set RF channel configuration!</value>
+  </data>
+  <data name="StringFailedToSetDwellTime" xml:space="preserve">
+    <value>Failed to set dwell time!</value>
+  </data>
+  <data name="StringFailedToSetEpcMatch" xml:space="preserve">
+    <value>Failed to set EPC match!</value>
+  </data>
+  <data name="StringFailedToSetHopping" xml:space="preserve">
+    <value>Failed to set hopping!</value>
+  </data>
+  <data name="StringFailedToSetHoppingState" xml:space="preserve">
+    <value>Failed to set hopping state!</value>
+  </data>
+  <data name="StringFailedToSetKillPassword" xml:space="preserve">
+    <value>Failed to set kill password!</value>
+  </data>
+  <data name="StringFailedToSetLbtConfiguration" xml:space="preserve">
+    <value>Failed to set LBT configuration!</value>
+  </data>
+  <data name="StringFailedToSetPshConfiguration" xml:space="preserve">
+    <value>Failed to set PSH configuration!</value>
+  </data>
+  <data name="StringFailedToSetRetryInterval" xml:space="preserve">
+    <value>Failed to set retry interval!</value>
+  </data>
+  <data name="StringFailedToSetRfChannel" xml:space="preserve">
+    <value>Failed to set RF channel!</value>
+  </data>
+  <data name="StringFailedToSetRfMode" xml:space="preserve">
+    <value>Failed to set RF mode!</value>
+  </data>
+  <data name="StringFailedToSetRfPowerGain" xml:space="preserve">
+    <value>Failed to set RF power gain!</value>
+  </data>
+  <data name="StringFailedToSetSingulation" xml:space="preserve">
+    <value>Failed to set singulation!</value>
+  </data>
+  <data name="StringFailedToSetTxOffTime" xml:space="preserve">
+    <value>Failed to set RF TX off time!</value>
+  </data>
+  <data name="StringFailedToSetTxOnTime" xml:space="preserve">
+    <value>Failed to set RF TX on time!</value>
+  </data>
+  <data name="StringFailedToStartBarcodeScan" xml:space="preserve">
+    <value>Failed to start barcode scan!</value>
+  </data>
+  <data name="StringFailedToStartCarrierWave" xml:space="preserve">
+    <value>Failed to start carrier wave!</value>
+  </data>
+  <data name="StringFailedToStartInventory" xml:space="preserve">
+    <value>Failed to start inventory!</value>
+  </data>
+  <data name="StringFailedToStopCarrierWave" xml:space="preserve">
+    <value>Failed to stop carrier wave!</value>
+  </data>
+  <data name="StringFailedToStopInventory" xml:space="preserve">
+    <value>Failed to stop inventory!</value>
+  </data>
+  <data name="StringFailedToUntraceableTag" xml:space="preserve">
+    <value>Failed to set untraceable privilege on a tag!</value>
+  </data>
+  <data name="StringFailedToUpdateFirmware" xml:space="preserve">
+    <value>Failed to update firmware!</value>
+  </data>
+  <data name="StringFailedToVerifyAuthenticationKey" xml:space="preserve">
+    <value>Failed to verify(read) an authentication key!</value>
+  </data>
+  <data name="StringFailedToWriteAccessPassword" xml:space="preserve">
+    <value>Failed to write access password!</value>
+  </data>
+  <data name="StringFailedToWriteKillPassword" xml:space="preserve">
+    <value>Failed to write kill password!</value>
+  </data>
+  <data name="StringFailedToWriteTagMemory" xml:space="preserve">
+    <value>Failed to write Tag memory!</value>
+  </data>
+  <data name="StringFastId" xml:space="preserve">
+    <value>FastID</value>
+  </data>
+  <data name="StringFcc" xml:space="preserve">
+    <value>FCC</value>
+  </data>
+  <data name="StringFicsPostal" xml:space="preserve">
+    <value>FICS Postal</value>
+  </data>
+  <data name="StringFileNameIsInvalid" xml:space="preserve">
+    <value>File name is invalid!</value>
+  </data>
+  <data name="StringFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="StringFirmwareUpdateSendingFirmwareFile" xml:space="preserve">
+    <value>Sending firmware file...</value>
+  </data>
+  <data name="StringFirmwareUpdateSuccess" xml:space="preserve">
+    <value>Firmware updated successfully!</value>
+  </data>
+  <data name="StringFirmwareVersion" xml:space="preserve">
+    <value>Firmware Version</value>
+  </data>
+  <data name="StringForceConnection" xml:space="preserve">
+    <value>Force Connection</value>
+  </data>
+  <data name="StringForwardPower" xml:space="preserve">
+    <value>Forward Power</value>
+  </data>
+  <data name="StringForwardPowerCoefficients" xml:space="preserve">
+    <value>Forward Power(A2, A1, A0)</value>
+  </data>
+  <data name="StringFrimwareUpdate" xml:space="preserve">
+    <value>Firmware Update</value>
+  </data>
+  <data name="StringFuzzy1DProcessing" xml:space="preserve">
+    <value>Fuzzy 1D Processing</value>
+  </data>
+  <data name="StringG" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="StringGain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="StringGerman" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="StringGlobalBand" xml:space="preserve">
+    <value>Global Band</value>
+  </data>
+  <data name="StringGpio" xml:space="preserve">
+    <value>GPIO</value>
+  </data>
+  <data name="StringGrossGain" xml:space="preserve">
+    <value>Gross Gain</value>
+  </data>
+  <data name="StringGs1128" xml:space="preserve">
+    <value>GS1-128(formerly UCC/EAN-128)</value>
+  </data>
+  <data name="StringGS1128EmulationModeForUccEanCompositeCodes" xml:space="preserve">
+    <value>GS1-128 Emulation Mode for UCC/EAN Composite Codes</value>
+  </data>
+  <data name="StringGs1DataBar" xml:space="preserve">
+    <value>GS1 DataBar</value>
+  </data>
+  <data name="StringH" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="StringHandsfree" xml:space="preserve">
+    <value>Handsfree</value>
+  </data>
+  <data name="StringHanXin" xml:space="preserve">
+    <value>Han Xin</value>
+  </data>
+  <data name="StringHanXinInverse" xml:space="preserve">
+    <value>Han Xin Inverse</value>
+  </data>
+  <data name="StringHardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="StringHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="StringHidConfiguration" xml:space="preserve">
+    <value>HID Configuration</value>
+  </data>
+  <data name="StringHide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="StringHideAboveEpc" xml:space="preserve">
+    <value>Hide above EPC</value>
+  </data>
+  <data name="StringHideAll" xml:space="preserve">
+    <value>Hide All</value>
+  </data>
+  <data name="StringHideNone" xml:space="preserve">
+    <value>Hide None</value>
+  </data>
+  <data name="StringHideSome" xml:space="preserve">
+    <value>Hide Some</value>
+  </data>
+  <data name="StringHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="StringHintKeyValue" xml:space="preserve">
+    <value>{0:D} digits, {1:D} words, HEX</value>
+  </data>
+  <data name="StringHongkong" xml:space="preserve">
+    <value>Hongkong</value>
+  </data>
+  <data name="StringHpa" xml:space="preserve">
+    <value>hPa</value>
+  </data>
+  <data name="StringHumidity" xml:space="preserve">
+    <value>Humidity</value>
+  </data>
+  <data name="StringI2Of5CheckDigitVerification" xml:space="preserve">
+    <value>I 2 of 5 Check Digit Verification</value>
+  </data>
+  <data name="StringIdle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="StringIlluminationPowerLevel" xml:space="preserve">
+    <value>Illumination Power Level</value>
+  </data>
+  <data name="StringImagerOptions" xml:space="preserve">
+    <value>Imager Options</value>
+  </data>
+  <data name="StringImmediateResponse" xml:space="preserve">
+    <value>Immediate Response</value>
+  </data>
+  <data name="StringIndia" xml:space="preserve">
+    <value>India</value>
+  </data>
+  <data name="StringIndonesia" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+  <data name="StringInitInvenButton" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StringInput" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="StringInstalled" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="StringIntelligentMail" xml:space="preserve">
+    <value>Intelligent Mail</value>
+  </data>
+  <data name="StringInterleaved2Of5" xml:space="preserve">
+    <value>Interleaved 2 of 5</value>
+  </data>
+  <data name="StringInternetConnectState" xml:space="preserve">
+    <value>Please make sure you are connected to the internet.</value>
+  </data>
+  <data name="StringInterval" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="StringInvalidBarcodeInstance" xml:space="preserve">
+    <value>The instance of barcode scanner is not valid!</value>
+  </data>
+  <data name="StringInvalidParameterRange" xml:space="preserve">
+    <value>Invalid parameter range!</value>
+  </data>
+  <data name="StringInvalidRfidInstance" xml:space="preserve">
+    <value>The instance of RFID reader is not valid!</value>
+  </data>
+  <data name="StringInvenStart" xml:space="preserve">
+    <value>Proceeding</value>
+  </data>
+  <data name="StringInvenStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StringInventoriedS0" xml:space="preserve">
+    <value>Inventoried(S0)</value>
+  </data>
+  <data name="StringInventoriedS1" xml:space="preserve">
+    <value>Inventoried(S1)</value>
+  </data>
+  <data name="StringInventoriedS2" xml:space="preserve">
+    <value>Inventoried(S2)</value>
+  </data>
+  <data name="StringInventoriedS3" xml:space="preserve">
+    <value>Inventoried(S3)</value>
+  </data>
+  <data name="StringInventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="StringInventoryRoundCount" xml:space="preserve">
+    <value>Inventory Count</value>
+  </data>
+  <data name="StringInventorySettings" xml:space="preserve">
+    <value>Inventory Settings</value>
+  </data>
+  <data name="StringInverse1d" xml:space="preserve">
+    <value>Inverse 1D</value>
+  </data>
+  <data name="StringIpAddress" xml:space="preserve">
+    <value>Ip Address</value>
+  </data>
+  <data name="StringIran" xml:space="preserve">
+    <value>Iran</value>
+  </data>
+  <data name="StringIsbt128" xml:space="preserve">
+    <value>ISBT 128</value>
+  </data>
+  <data name="StringIsbtConcatenation" xml:space="preserve">
+    <value>ISBT Concatenation</value>
+  </data>
+  <data name="StringIsrael" xml:space="preserve">
+    <value>Israel</value>
+  </data>
+  <data name="StringIssnEan" xml:space="preserve">
+    <value>ISSN EAN</value>
+  </data>
+  <data name="StringIv" xml:space="preserve">
+    <value>Initial Vector</value>
+  </data>
+  <data name="StringJapan" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="StringJapan1w" xml:space="preserve">
+    <value>Japan(1W)</value>
+  </data>
+  <data name="StringJapan250mW" xml:space="preserve">
+    <value>Japan(250mW)</value>
+  </data>
+  <data name="StringJapanese" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="StringJapanPostal" xml:space="preserve">
+    <value>Japan Postal</value>
+  </data>
+  <data name="StringJordan" xml:space="preserve">
+    <value>Jordan</value>
+  </data>
+  <data name="StringKey" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="StringKeyManagement" xml:space="preserve">
+    <value>Key Management</value>
+  </data>
+  <data name="StringKill" xml:space="preserve">
+    <value>Kill</value>
+  </data>
+  <data name="StringKillPassword" xml:space="preserve">
+    <value>Kill Password</value>
+  </data>
+  <data name="StringKillPasswordSetting" xml:space="preserve">
+    <value>Kill Password Setting</value>
+  </data>
+  <data name="StringKorea" xml:space="preserve">
+    <value>Korea</value>
+  </data>
+  <data name="StringKorea3of5" xml:space="preserve">
+    <value>Korea 3 of 5</value>
+  </data>
+  <data name="StringKorean" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="StringLabelAbientTemperature" xml:space="preserve">
+    <value>AT: </value>
+  </data>
+  <data name="StringLabelCharge" xml:space="preserve">
+    <value>Charge: </value>
+  </data>
+  <data name="StringLabelCheck" xml:space="preserve">
+    <value>Check: </value>
+  </data>
+  <data name="StringLabelCompensation" xml:space="preserve">
+    <value>Comp: </value>
+  </data>
+  <data name="StringLabelContactTemperature" xml:space="preserve">
+    <value>CT: </value>
+  </data>
+  <data name="StringLabelGpioState" xml:space="preserve">
+    <value>GPIO state: </value>
+  </data>
+  <data name="StringLabelHumidity" xml:space="preserve">
+    <value>Humidity: </value>
+  </data>
+  <data name="StringLabelId" xml:space="preserve">
+    <value>ID: </value>
+  </data>
+  <data name="StringLabelMagneticField" xml:space="preserve">
+    <value>Mag. field: </value>
+  </data>
+  <data name="StringLabelModel" xml:space="preserve">
+    <value>Model: </value>
+  </data>
+  <data name="StringLabelOrientation" xml:space="preserve">
+    <value>Orientation: </value>
+  </data>
+  <data name="StringLabelPressure" xml:space="preserve">
+    <value>P: </value>
+  </data>
+  <data name="StringLabelProductId" xml:space="preserve">
+    <value>Product ID: </value>
+  </data>
+  <data name="StringLabelQos" xml:space="preserve">
+    <value>QOS: </value>
+  </data>
+  <data name="StringLabelResistance" xml:space="preserve">
+    <value>Resistance: </value>
+  </data>
+  <data name="StringLabelRssi" xml:space="preserve">
+    <value>RSSI: </value>
+  </data>
+  <data name="StringLabelSensor" xml:space="preserve">
+    <value>Sensor: </value>
+  </data>
+  <data name="StringLabelSn" xml:space="preserve">
+    <value>S/N: </value>
+  </data>
+  <data name="StringLabelTemperature" xml:space="preserve">
+    <value>Temp: </value>
+  </data>
+  <data name="StringLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="StringLbt" xml:space="preserve">
+    <value>LBT</value>
+  </data>
+  <data name="StringLbtSettings" xml:space="preserve">
+    <value>LBT Settings</value>
+  </data>
+  <data name="StringLedTrigger" xml:space="preserve">
+    <value>LED Trigger</value>
+  </data>
+  <data name="StringLeftJustified" xml:space="preserve">
+    <value>Left Justified</value>
+  </data>
+  <data name="StringLength" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="StringLengthWithinRange" xml:space="preserve">
+    <value>Length Within Range</value>
+  </data>
+  <data name="StringLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="StringLibraryVersion" xml:space="preserve">
+    <value>Library Version</value>
+  </data>
+  <data name="StringListViewDeviceName" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="StringListViewEpc" xml:space="preserve">
+    <value>Epc</value>
+  </data>
+  <data name="StringListViewPortNumber" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="StringListViewRssi" xml:space="preserve">
+    <value>Rssi</value>
+  </data>
+  <data name="StringListViewTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="StringLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="StringLock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="StringLockKill" xml:space="preserve">
+    <value>Lock/Kill</value>
+  </data>
+  <data name="StringLockOperation" xml:space="preserve">
+    <value>Lock Operation</value>
+  </data>
+  <data name="StringLockSettings" xml:space="preserve">
+    <value>Lock Settings</value>
+  </data>
+  <data name="StringLogConfiguration" xml:space="preserve">
+    <value>Log Configuration</value>
+  </data>
+  <data name="StringLogLevel" xml:space="preserve">
+    <value>Log Level</value>
+  </data>
+  <data name="StringLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="StringLrCr" xml:space="preserve">
+    <value>LR+CR</value>
+  </data>
+  <data name="StringMagneticField" xml:space="preserve">
+    <value>Magnetic Field</value>
+  </data>
+  <data name="StringMagneticFieldX" xml:space="preserve">
+    <value>Magnetic Field X axis</value>
+  </data>
+  <data name="StringMagneticFieldY" xml:space="preserve">
+    <value>Magnetic Field Y axis</value>
+  </data>
+  <data name="StringMagneticFieldZ" xml:space="preserve">
+    <value>Magnetic Field Z axis</value>
+  </data>
+  <data name="StringMalaysia" xml:space="preserve">
+    <value>Malaysia</value>
+  </data>
+  <data name="StringManufacturer" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="StringMask" xml:space="preserve">
+    <value>Mask</value>
+  </data>
+  <data name="StringMatrix2of5" xml:space="preserve">
+    <value>Matrix 2 of 5</value>
+  </data>
+  <data name="StringMaxiCode" xml:space="preserve">
+    <value>MaxiCode</value>
+  </data>
+  <data name="StringMaxLength" xml:space="preserve">
+    <value>Max Length</value>
+  </data>
+  <data name="StringMBar" xml:space="preserve">
+    <value>mBar</value>
+  </data>
+  <data name="StringMeasurementFrequency" xml:space="preserve">
+    <value>Measurement Frequency</value>
+  </data>
+  <data name="StringMeasurementPower" xml:space="preserve">
+    <value>Measurement Power</value>
+  </data>
+  <data name="StringMemory" xml:space="preserve">
+    <value>Memory</value>
+  </data>
+  <data name="StringMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="StringMGuass" xml:space="preserve">
+    <value>mGuass</value>
+  </data>
+  <data name="StringMicroPdf417" xml:space="preserve">
+    <value>MicroPDF417</value>
+  </data>
+  <data name="StringMicroQr" xml:space="preserve">
+    <value>MicroQR</value>
+  </data>
+  <data name="StringMin" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="StringMinLength" xml:space="preserve">
+    <value>Min Length</value>
+  </data>
+  <data name="StringMode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="StringModel" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="StringModule" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="StringModuleInformation" xml:space="preserve">
+    <value>Module Information</value>
+  </data>
+  <data name="StringModuleReboot" xml:space="preserve">
+    <value>Module Reboot</value>
+  </data>
+  <data name="StringModuleType" xml:space="preserve">
+    <value>Module Type</value>
+  </data>
+  <data name="StringMorocco" xml:space="preserve">
+    <value>Morocco</value>
+  </data>
+  <data name="StringMsi" xml:space="preserve">
+    <value>MSI</value>
+  </data>
+  <data name="StringMsiCheckDigitAlgorithm" xml:space="preserve">
+    <value>MSI Check Digit Algorithm</value>
+  </data>
+  <data name="StringMsiCheckDigits" xml:space="preserve">
+    <value>MSI Check Digits</value>
+  </data>
+  <data name="StringName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="StringNetherlandsKix" xml:space="preserve">
+    <value>Netherlands KIX</value>
+  </data>
+  <data name="StringNewZealand" xml:space="preserve">
+    <value>New Zealand</value>
+  </data>
+  <data name="StringNFaraday" xml:space="preserve">
+    <value>nFaraday</value>
+  </data>
+  <data name="StringNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="StringNoDataToExport" xml:space="preserve">
+    <value>No content to export!</value>
+  </data>
+  <data name="StringNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="StringNonpersistent" xml:space="preserve">
+    <value>Nonpersistent</value>
+  </data>
+  <data name="StringNonpersistentDescription" xml:space="preserve">
+    <value>(Not persisted after reset)</value>
+  </data>
+  <data name="StringNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="StringNoSan" xml:space="preserve">
+    <value>No Scan</value>
+  </data>
+  <data name="StringNotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="StringNotisEditing" xml:space="preserve">
+    <value>NOTIS Editing</value>
+  </data>
+  <data name="StringNotSelected" xml:space="preserve">
+    <value>Not selected</value>
+  </data>
+  <data name="StringNotSelectedDevice" xml:space="preserve">
+    <value>It cannot be executed unless a device is selected.</value>
+  </data>
+  <data name="StringNullChannelInfoParameter" xml:space="preserve">
+    <value>Null channel info parameter!</value>
+  </data>
+  <data name="StringNullLbtConfigurationParameter" xml:space="preserve">
+    <value>Null LBT configuration parameter!</value>
+  </data>
+  <data name="StringNullOrInvalidPassword" xml:space="preserve">
+    <value>Null or invalid password!</value>
+  </data>
+  <data name="StringNullProtocolSchedulerTimingParameter" xml:space="preserve">
+    <value>Null protocol scheduler timing parameter!</value>
+  </data>
+  <data name="StringNumberOfAntennaPortsOutOfRange" xml:space="preserve">
+    <value>The number of antenna ports is out of range! It should be within 1 and 128.</value>
+  </data>
+  <data name="StringOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="StringOffset" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="StringOhm" xml:space="preserve">
+    <value>ohm</value>
+  </data>
+  <data name="StringOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="StringON" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="StringOneDiscreteLength" xml:space="preserve">
+    <value>One Discrete Length</value>
+  </data>
+  <data name="StringOneWord" xml:space="preserve">
+    <value>1 word</value>
+  </data>
+  <data name="StringOperationSettings" xml:space="preserve">
+    <value>Operation Settings</value>
+  </data>
+  <data name="StringOperationSuccess" xml:space="preserve">
+    <value>Operation success!</value>
+  </data>
+  <data name="StringOption" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="StringOrientationX" xml:space="preserve">
+    <value>Orientation X axis</value>
+  </data>
+  <data name="StringOrientationY" xml:space="preserve">
+    <value>Orientation Y axis</value>
+  </data>
+  <data name="StringOrientationZ" xml:space="preserve">
+    <value>Orientation Z axis</value>
+  </data>
+  <data name="StringPaBiasDac" xml:space="preserve">
+    <value>PA Bias DAC</value>
+  </data>
+  <data name="StringPacketDetails" xml:space="preserve">
+    <value>Packet Details</value>
+  </data>
+  <data name="StringPacketReceive" xml:space="preserve">
+    <value>Receive</value>
+  </data>
+  <data name="StringPacketSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="StringPacketViewer" xml:space="preserve">
+    <value>Packet Viewer</value>
+  </data>
+  <data name="StringPaCurrent" xml:space="preserve">
+    <value>PA Current</value>
+  </data>
+  <data name="StringPaCurrentCoefficients" xml:space="preserve">
+    <value>PA Current(A2, A1, A0)</value>
+  </data>
+  <data name="StringPakistan" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+  <data name="StringPaTemperature" xml:space="preserve">
+    <value>PA Temperature</value>
+  </data>
+  <data name="StringPaTemperatureCoefficients" xml:space="preserve">
+    <value>PA Temp(A2, A1, A0)</value>
+  </data>
+  <data name="StringPc" xml:space="preserve">
+    <value>PC</value>
+  </data>
+  <data name="StringPdf417" xml:space="preserve">
+    <value>PDF417</value>
+  </data>
+  <data name="StringPercentRh" xml:space="preserve">
+    <value>%rH</value>
+  </data>
+  <data name="StringPermaLock" xml:space="preserve">
+    <value>Perma Lock</value>
+  </data>
+  <data name="StringPermaLockAction" xml:space="preserve">
+    <value>Perma Lock Action</value>
+  </data>
+  <data name="StringPermaUnlock" xml:space="preserve">
+    <value>Perma Unlock</value>
+  </data>
+  <data name="StringPersistent" xml:space="preserve">
+    <value>Persistent</value>
+  </data>
+  <data name="StringPersistentDescription" xml:space="preserve">
+    <value>(Persisted after reset)</value>
+  </data>
+  <data name="StringPeru" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+  <data name="StringPhase" xml:space="preserve">
+    <value>Phase</value>
+  </data>
+  <data name="StringPhilippines" xml:space="preserve">
+    <value>Philippines</value>
+  </data>
+  <data name="StringPleaseSelectDevice" xml:space="preserve">
+    <value>Please Select Device!</value>
+  </data>
+  <data name="StringPointer" xml:space="preserve">
+    <value>Pointer</value>
+  </data>
+  <data name="StringPort" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="StringPowerGain" xml:space="preserve">
+    <value>Power Gain</value>
+  </data>
+  <data name="StringPowerOnAntennaDetection" xml:space="preserve">
+    <value>Power On Antenna Detection</value>
+  </data>
+  <data name="StringPowerSensing" xml:space="preserve">
+    <value>Power Sensing</value>
+  </data>
+  <data name="StringPrefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="StringPrefixSuffix" xml:space="preserve">
+    <value>Prefix/Suffix</value>
+  </data>
+  <data name="StringPressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="StringPreviouslyConnectedDevices" xml:space="preserve">
+    <value>Previously Connected Devices</value>
+  </data>
+  <data name="StringQrCode" xml:space="preserve">
+    <value>QR Code</value>
+  </data>
+  <data name="StringQrInverse" xml:space="preserve">
+    <value>QR Inverse</value>
+  </data>
+  <data name="StringRange" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="StringRead" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="StringReadingTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="StringReadMemory" xml:space="preserve">
+    <value>Read Memory</value>
+  </data>
+  <data name="StringReadSensors" xml:space="preserve">
+    <value>Read Sensors</value>
+  </data>
+  <data name="StringReadWrite" xml:space="preserve">
+    <value>Read/Write</value>
+  </data>
+  <data name="StringReduced" xml:space="preserve">
+    <value>Reduced</value>
+  </data>
+  <data name="StringRegion" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="StringRegionChanged" xml:space="preserve">
+    <value>Region changed</value>
+  </data>
+  <data name="StringRegionIsChanging" xml:space="preserve">
+    <value>Region is changing...</value>
+  </data>
+  <data name="StringRegulatoryRegion" xml:space="preserve">
+    <value>Regulatory Region</value>
+  </data>
+  <data name="StringRemoteConnection" xml:space="preserve">
+    <value>Remote Connection</value>
+  </data>
+  <data name="StringRemoteDevice" xml:space="preserve">
+    <value>Remote Device</value>
+  </data>
+  <data name="StringRemoteDeviceInformation" xml:space="preserve">
+    <value>Remote Device Information</value>
+  </data>
+  <data name="StringRemoteDeviceIsNotConnectedYet" xml:space="preserve">
+    <value>Remote device is not connected yet!</value>
+  </data>
+  <data name="StringRemoteDeviceIsNotSpecified" xml:space="preserve">
+    <value>Remote device is not specified!</value>
+  </data>
+  <data name="StringRemoteDevices" xml:space="preserve">
+    <value>Remote Devices</value>
+  </data>
+  <data name="StringRemoteDeviceSettings" xml:space="preserve">
+    <value>Remote Device Settings</value>
+  </data>
+  <data name="StringRemoteFilter" xml:space="preserve">
+    <value>Remote Filter</value>
+  </data>
+  <data name="StringRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="StringResetToDefaults" xml:space="preserve">
+    <value>Reset To Defaults</value>
+  </data>
+  <data name="StringResistance" xml:space="preserve">
+    <value>Resistance</value>
+  </data>
+  <data name="StringRetryIntervalNotBiggerThanTimeout" xml:space="preserve">
+    <value>Retry interval cannot be bigger than access timeout!</value>
+  </data>
+  <data name="StringReversePower" xml:space="preserve">
+    <value>Reverse Power</value>
+  </data>
+  <data name="StringReversePowerCoefficients" xml:space="preserve">
+    <value>Reverse Power(A2, A1, A0)</value>
+  </data>
+  <data name="StringReversePowerThreshold" xml:space="preserve">
+    <value>Reverse Power Threshold</value>
+  </data>
+  <data name="StringRfChannel" xml:space="preserve">
+    <value>RF Channel</value>
+  </data>
+  <data name="StringRfChannelSetting" xml:space="preserve">
+    <value>RF Channel Setting</value>
+  </data>
+  <data name="StringRfid" xml:space="preserve">
+    <value>RFID</value>
+  </data>
+  <data name="StringRfidModule" xml:space="preserve">
+    <value>Rfid Module</value>
+  </data>
+  <data name="StringRfidReader" xml:space="preserve">
+    <value>Rfid Reader</value>
+  </data>
+  <data name="StringRfMode" xml:space="preserve">
+    <value>RF Mode</value>
+  </data>
+  <data name="StringRfSettings" xml:space="preserve">
+    <value>RF Settings</value>
+  </data>
+  <data name="StringRss14" xml:space="preserve">
+    <value>RSS-14(GS1 DataBar)</value>
+  </data>
+  <data name="StringRssExpanded" xml:space="preserve">
+    <value>RSS-Expanded(GS1 DataBar Expanded)</value>
+  </data>
+  <data name="StringRssi" xml:space="preserve">
+    <value>RSSI</value>
+  </data>
+  <data name="StringRssiThreshold" xml:space="preserve">
+    <value>RSSI(NB) Threshold</value>
+  </data>
+  <data name="StringRssLimited" xml:space="preserve">
+    <value>RSS-Limited(GS1 DataBar Limited)</value>
+  </data>
+  <data name="StringRssLimitedSecurityLevel" xml:space="preserve">
+    <value>RSS-Limited Security Level</value>
+  </data>
+  <data name="StringRussia" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+  <data name="StringSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="StringSaveFileDialogTitle" xml:space="preserve">
+    <value>Save packet log to file</value>
+  </data>
+  <data name="StringSaveToFile" xml:space="preserve">
+    <value>Save to file</value>
+  </data>
+  <data name="StringScan" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="StringScanTimeout" xml:space="preserve">
+    <value>Scan Timeout</value>
+  </data>
+  <data name="StringSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="StringSec" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="StringSecurity" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="StringSelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="StringSelectionFailedToSetInventorySelection" xml:space="preserve">
+    <value>Failed to set inventory selection!</value>
+  </data>
+  <data name="StringSelectionFailedToSetInventorySession" xml:space="preserve">
+    <value>Failed to set inventory session!</value>
+  </data>
+  <data name="StringSelectionFailedToSetInventoryTarget" xml:space="preserve">
+    <value>Failed to set inventory target!</value>
+  </data>
+  <data name="StringSelectionFailedToSetSelectionMask" xml:space="preserve">
+    <value>Failed to set selection mask!</value>
+  </data>
+  <data name="StringSelectionFailedToSetSelectionMaskState" xml:space="preserve">
+    <value>Failed to set selection mask state!</value>
+  </data>
+  <data name="StringSelectionInvalidSelectionMask" xml:space="preserve">
+    <value>Invalid selection mask!</value>
+  </data>
+  <data name="StringSelectionMask" xml:space="preserve">
+    <value>Selection Mask</value>
+  </data>
+  <data name="StringSelectionMaskParamIsNoValid" xml:space="preserve">
+    <value>The parameters of selection mask is not valid!</value>
+  </data>
+  <data name="StringSelectionMaskSettings" xml:space="preserve">
+    <value>Selection Mask Settings</value>
+  </data>
+  <data name="StringSelectionSettings" xml:space="preserve">
+    <value>Selection Settings</value>
+  </data>
+  <data name="StringSelectionSuccessSetting" xml:space="preserve">
+    <value>Success Save</value>
+  </data>
+  <data name="StringSelectRfidFirmwareFileToUpdate" xml:space="preserve">
+    <value>Select RFID firmware file to update</value>
+  </data>
+  <data name="StringSensor" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+  <data name="StringSensorInformation" xml:space="preserve">
+    <value>Sensor Information</value>
+  </data>
+  <data name="StringSensorTypeNotSupportedYet" xml:space="preserve">
+    <value> is not supported yet!</value>
+  </data>
+  <data name="StringSensorVendor" xml:space="preserve">
+    <value>Sensor Vendor</value>
+  </data>
+  <data name="StringSerial" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="StringSerialSetting" xml:space="preserve">
+    <value>Serial Setting</value>
+  </data>
+  <data name="StringSession" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="StringSet" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="StringSetLengthType" xml:space="preserve">
+    <value>Set Length Type</value>
+  </data>
+  <data name="StringSetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="StringSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="StringShow" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="StringShowAboveEpc" xml:space="preserve">
+    <value>Show above EPC</value>
+  </data>
+  <data name="StringSingapore" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+  <data name="StringSingulation" xml:space="preserve">
+    <value>Singulation</value>
+  </data>
+  <data name="StringSl" xml:space="preserve">
+    <value>SL</value>
+  </data>
+  <data name="StringSlFlag" xml:space="preserve">
+    <value>SL Flag</value>
+  </data>
+  <data name="StringSn" xml:space="preserve">
+    <value>S/N</value>
+  </data>
+  <data name="StringSoftware" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="StringSound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="StringSouthAfrica" xml:space="preserve">
+    <value>South Africa</value>
+  </data>
+  <data name="StringSpanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="StringSpeed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="StringStartCarrier" xml:space="preserve">
+    <value>Start Carrier</value>
+  </data>
+  <data name="StringStartInventory" xml:space="preserve">
+    <value>Start Inventory</value>
+  </data>
+  <data name="StringStartScan" xml:space="preserve">
+    <value>Start Scan</value>
+  </data>
+  <data name="StringState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="StringStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="StringStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="StringStopCarrier" xml:space="preserve">
+    <value>Stop Carrier</value>
+  </data>
+  <data name="StringStopInventory" xml:space="preserve">
+    <value>Stop Inventory</value>
+  </data>
+  <data name="StringStopScan" xml:space="preserve">
+    <value>Stop Scan</value>
+  </data>
+  <data name="StringStopSearching" xml:space="preserve">
+    <value>Stop Searching</value>
+  </data>
+  <data name="StringStringCalibrationInformation" xml:space="preserve">
+    <value>Calibration Information</value>
+  </data>
+  <data name="StringSuccess" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="StringSuffix" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="StringSymbolEnable" xml:space="preserve">
+    <value>Symbol Enable</value>
+  </data>
+  <data name="StringSymbologies" xml:space="preserve">
+    <value>Symbologies</value>
+  </data>
+  <data name="StringSymbology" xml:space="preserve">
+    <value>Symbology</value>
+  </data>
+  <data name="StringSymbologySetting" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="StringTagHasNoSensor" xml:space="preserve">
+    <value> has no sensor!</value>
+  </data>
+  <data name="StringTagTrace" xml:space="preserve">
+    <value>Tag Trace</value>
+  </data>
+  <data name="StringTagValue" xml:space="preserve">
+    <value>Tag Value</value>
+  </data>
+  <data name="StringTaiwan" xml:space="preserve">
+    <value>Taiwan</value>
+  </data>
+  <data name="StringTarget" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="StringTbd" xml:space="preserve">
+    <value>TBD</value>
+  </data>
+  <data name="StringTemperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="StringTerminator" xml:space="preserve">
+    <value>Terminator</value>
+  </data>
+  <data name="StringThailand" xml:space="preserve">
+    <value>Thailand</value>
+  </data>
+  <data name="StringTid" xml:space="preserve">
+    <value>TID</value>
+  </data>
+  <data name="StringTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="StringTimeout" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="StringTimeoutSetting" xml:space="preserve">
+    <value>Timeout Setting</value>
+  </data>
+  <data name="StringTimes" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="StringToBeDetermined" xml:space="preserve">
+    <value>TBD</value>
+  </data>
+  <data name="StringToggle" xml:space="preserve">
+    <value>Toggle</value>
+  </data>
+  <data name="StringTotalCounterInitialValue" xml:space="preserve">
+    <value>0 / 0</value>
+  </data>
+  <data name="StringTrace" xml:space="preserve">
+    <value>Trace</value>
+  </data>
+  <data name="StringTraceability" xml:space="preserve">
+    <value>Traceability</value>
+  </data>
+  <data name="StringTransceiverTemperature" xml:space="preserve">
+    <value>Transceiver Temperature</value>
+  </data>
+  <data name="StringTransceiverTemperatureCoefficients" xml:space="preserve">
+    <value>Transceiver Temp(A2, A1, A0)</value>
+  </data>
+  <data name="StringTransmitCheckDigit" xml:space="preserve">
+    <value>Transmit Check Digit</value>
+  </data>
+  <data name="StringTransmitcode11CheckDigit" xml:space="preserve">
+    <value>Transmit code 11 Check Digit</value>
+  </data>
+  <data name="StringTransmitcode39CheckDigit" xml:space="preserve">
+    <value>Transmit code 39 Check Digit</value>
+  </data>
+  <data name="StringTransmitI2Of5CheckDigit" xml:space="preserve">
+    <value>Transmit I 2 of 5 Check Digit</value>
+  </data>
+  <data name="StringTransmitMatrix2of5CheckDigit" xml:space="preserve">
+    <value>Transmit Matrix2of5 Check Digit</value>
+  </data>
+  <data name="StringTransmitMsiCheckDigit" xml:space="preserve">
+    <value>Transmit MSI Check Digit</value>
+  </data>
+  <data name="StringTransmitUpcACheckDigit" xml:space="preserve">
+    <value>Transmit UPC-A Check Digit</value>
+  </data>
+  <data name="StringTransmitUpcE1CheckDigit" xml:space="preserve">
+    <value>Transmit UPC-E1 Check Digit</value>
+  </data>
+  <data name="StringTransmitUpcECheckDigit" xml:space="preserve">
+    <value>Transmit UPC-E Check Digit</value>
+  </data>
+  <data name="StringTrigger" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="StringTriopticCode39" xml:space="preserve">
+    <value>Trioptic Code 39</value>
+  </data>
+  <data name="StringTurnOnTime" xml:space="preserve">
+    <value>Turn On Time</value>
+  </data>
+  <data name="StringTwoDiscreteLength" xml:space="preserve">
+    <value>Two Discrete Length</value>
+  </data>
+  <data name="StringTwoWords" xml:space="preserve">
+    <value>2 words</value>
+  </data>
+  <data name="StringTxOffTime" xml:space="preserve">
+    <value>Tx Off Time</value>
+  </data>
+  <data name="StringTxOffTimeOverhead" xml:space="preserve">
+    <value>Tx Off Time Overhead</value>
+  </data>
+  <data name="StringTxOnTime" xml:space="preserve">
+    <value>Tx On Time</value>
+  </data>
+  <data name="StringTxOnTimeOverhead" xml:space="preserve">
+    <value>Tx On Time Overhead</value>
+  </data>
+  <data name="StringTxTiming" xml:space="preserve">
+    <value>Tx Timing</value>
+  </data>
+  <data name="StringTxTimingSettings" xml:space="preserve">
+    <value>Tx Timing Settings</value>
+  </data>
+  <data name="StringType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="StringUccCouponExtendedCode" xml:space="preserve">
+    <value>UCC Coupon Extended Code</value>
+  </data>
+  <data name="StringUkPostal" xml:space="preserve">
+    <value>UK Postal</value>
+  </data>
+  <data name="StringUnitBit" xml:space="preserve">
+    <value> BIT(s)</value>
+  </data>
+  <data name="StringUnitBlock" xml:space="preserve">
+    <value>BLOCK(s)(x4 words)</value>
+  </data>
+  <data name="StringUnitBlockPlusOne" xml:space="preserve">
+    <value>+1 BLOCK(s)(x4 words)</value>
+  </data>
+  <data name="StringUnitBlocks" xml:space="preserve">
+    <value> (x16)BLOCKS</value>
+  </data>
+  <data name="StringUnitCelciusDegree" xml:space="preserve">
+    <value>℃</value>
+  </data>
+  <data name="StringUnitCountPerSecond" xml:space="preserve">
+    <value>cnt/s</value>
+  </data>
+  <data name="StringUnitDbm" xml:space="preserve">
+    <value> dBm</value>
+  </data>
+  <data name="StringUnitKHz" xml:space="preserve">
+    <value>KHz</value>
+  </data>
+  <data name="StringUnitMa" xml:space="preserve">
+    <value>mA</value>
+  </data>
+  <data name="StringUnitMHz" xml:space="preserve">
+    <value>MHz</value>
+  </data>
+  <data name="StringUnitMs" xml:space="preserve">
+    <value> ms</value>
+  </data>
+  <data name="StringUnitWord" xml:space="preserve">
+    <value> WORD(s)</value>
+  </data>
+  <data name="StringUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="StringUnlock" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="StringUnlocked" xml:space="preserve">
+    <value>Unlocked</value>
+  </data>
+  <data name="StringUnselectAll" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="StringUpcAPreamble" xml:space="preserve">
+    <value>UPC-A Preamble</value>
+  </data>
+  <data name="StringUPCCompositeMode" xml:space="preserve">
+    <value>UPC Composite Mode</value>
+  </data>
+  <data name="StringUpcE1Preamble" xml:space="preserve">
+    <value>UPC-E1 Preamble</value>
+  </data>
+  <data name="StringUpcEan" xml:space="preserve">
+    <value>UPC/EAN</value>
+  </data>
+  <data name="StringUpcEPreamble" xml:space="preserve">
+    <value>UPC-E Preamble</value>
+  </data>
+  <data name="StringUpdateFirmware" xml:space="preserve">
+    <value>Update Firmware</value>
+  </data>
+  <data name="StringUpdatingFirmware" xml:space="preserve">
+    <value>Updating firmware</value>
+  </data>
+  <data name="StringUruguay" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+  <data name="StringUsb" xml:space="preserve">
+    <value>USB</value>
+  </data>
+  <data name="StringUser" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="StringUserPreferences" xml:space="preserve">
+    <value>User Preferences</value>
+  </data>
+  <data name="StringUseSelectionMask" xml:space="preserve">
+    <value>Use Selection Mask</value>
+  </data>
+  <data name="StringUsPlanet" xml:space="preserve">
+    <value>US Planet</value>
+  </data>
+  <data name="StringUsPostnet" xml:space="preserve">
+    <value>US Postnet</value>
+  </data>
+  <data name="StringVendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="StringVenezuela" xml:space="preserve">
+    <value>Venezuela</value>
+  </data>
+  <data name="StringVibrator" xml:space="preserve">
+    <value>Vibrator</value>
+  </data>
+  <data name="StringVietnam" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+  <data name="StringView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="StringVolume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="StringWifi" xml:space="preserve">
+    <value>WiFi</value>
+  </data>
+  <data name="StringWifiDirect" xml:space="preserve">
+    <value>WiFi Direct</value>
+  </data>
+  <data name="StringWrite" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="StringWriteMemory" xml:space="preserve">
+    <value>Write Memory</value>
+  </data>
+  <data name="StringWriteMemoryDescription" xml:space="preserve">
+    <value>Max. 128 Digits, HEX, WORD(2 bytes) aligned</value>
+  </data>
+  <data name="StringWriteValueMustBeWordAligned" xml:space="preserve">
+    <value>Write value must be word(2 digits) aligned!</value>
+  </data>
+  <data name="StringWriteValueShouldNotLongerThanDigits" xml:space="preserve">
+    <value>Write value should not longer than {0:D} digits!</value>
+  </data>
+  <data name="StringYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="StringZero" xml:space="preserve">
+    <value>0</value>
+  </data>
+</root>
