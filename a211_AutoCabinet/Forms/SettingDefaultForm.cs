@@ -12,8 +12,11 @@ using System.Reflection;
 using System.Xml;
 using a211_AutoCabinet.Datas;
 using a211_AutoCabinet.Class;
+using a211_AutoCabinet.Forms;
 
 using System.Globalization;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
 
 namespace a211_AutoCabinet.Forms
 {
@@ -50,13 +53,36 @@ namespace a211_AutoCabinet.Forms
 
         private string CultureString = string.Empty;
 
-        public SettingDefaultForm(string CultureString)
+        // 선택된 디바이스 아이디
+        private string DeviceId = string.Empty;
+
+        // 네트워크 모드인지 확인
+        private bool NetWorkMode = false;
+
+        // 부모 폼
+        ATMW mainform;
+
+        public SettingDefaultForm(ATMW main ,string CultureString, string DeviceId, bool NetWorkMode)
         {
             InitializeComponent();
             InitializeLoadConfig();
             InitializeSettingConfig();
             this.CultureString = CultureString;
             Properties.Resources.Culture = new CultureInfo(CultureString);
+            mainform = new ATMW();
+            mainform = main;
+            LoadDeviceInfo(DeviceId, NetWorkMode);
+        }
+
+        private void LoadDeviceInfo(string DeviceId, bool NetWorkMode)
+        {
+            if (DeviceId != null)
+            {
+                this.DeviceId = DeviceId;
+                txbDeivceId.Text = this.DeviceId;
+            }
+            this.NetWorkMode = NetWorkMode;
+
         }
 
         public void InitializeLoadConfig() //Asyen : exe 파일이 있는 폴더에 Config 파일 위치 설정
@@ -183,7 +209,6 @@ namespace a211_AutoCabinet.Forms
 
         private bool UpdateConfig()
         {
-            
             try
             {
                 XmlDocument XmlSetting = new XmlDocument();
@@ -224,8 +249,15 @@ namespace a211_AutoCabinet.Forms
                 ReRfTxOnTime.InnerText = Convert.ToString(txbTxOnTime.Text);
                 ReRfTxOffTime.InnerText = Convert.ToString(txbTxOffTime.Text);
 
-
                 XmlSetting.Save(ConfigLoad);
+
+                if (NetWorkMode)
+                {
+                    if (DeviceId != null || RePanelColumn.InnerText != null || RePanelRow.InnerText != null)
+                    {
+                        bool result = mainform.RequestUpdateColRowNum(DeviceId, RePanelRow.InnerText, RePanelColumn.InnerText);
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -337,6 +369,11 @@ namespace a211_AutoCabinet.Forms
         private void RssiFilterValue(int MaxValue)
         {
             RssiValue = MaxValue;
+        }
+
+        private void txbDeivceId_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

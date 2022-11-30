@@ -50,6 +50,8 @@ namespace a211_AutoCabinet.Forms
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.txbDeivceId = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBoxSetting.SuspendLayout();
             this.groupBoxSettingPanelSize.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +83,8 @@ namespace a211_AutoCabinet.Forms
             // groupBoxSetting
             // 
             resources.ApplyResources(this.groupBoxSetting, "groupBoxSetting");
+            this.groupBoxSetting.Controls.Add(this.label6);
+            this.groupBoxSetting.Controls.Add(this.txbDeivceId);
             this.groupBoxSetting.Controls.Add(this.btnRssiFilterSetting);
             this.groupBoxSetting.Controls.Add(this.btnDwellTime);
             this.groupBoxSetting.Controls.Add(this.buttonCancel);
@@ -179,6 +183,17 @@ namespace a211_AutoCabinet.Forms
             // 
             resources.ApplyResources(this.columnHeader1, "columnHeader1");
             // 
+            // txbDeivceId
+            // 
+            resources.ApplyResources(this.txbDeivceId, "txbDeivceId");
+            this.txbDeivceId.Name = "txbDeivceId";
+            this.txbDeivceId.TextChanged += new System.EventHandler(this.txbDeivceId_TextChanged);
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
             // SettingDefaultForm
             // 
             resources.ApplyResources(this, "$this");
@@ -188,6 +203,7 @@ namespace a211_AutoCabinet.Forms
             this.Name = "SettingDefaultForm";
             this.Load += new System.EventHandler(this.SettingDefaultForm_Load);
             this.groupBoxSetting.ResumeLayout(false);
+            this.groupBoxSetting.PerformLayout();
             this.groupBoxSettingPanelSize.ResumeLayout(false);
             this.groupBoxSettingPanelSize.PerformLayout();
             this.ResumeLayout(false);
@@ -215,5 +231,7 @@ namespace a211_AutoCabinet.Forms
         private System.Windows.Forms.TextBox txbTxOffTime;
         private System.Windows.Forms.TextBox txbTxOnTime;
         private System.Windows.Forms.Button btnRssiFilterSetting;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txbDeivceId;
     }
 }

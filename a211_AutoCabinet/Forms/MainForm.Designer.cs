@@ -43,11 +43,6 @@ namespace a211_AutoCabinet.Forms
             this.settingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modeSettingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tableModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.debugModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStripLog = new System.Windows.Forms.StatusStrip();
             this.panelTagDataView = new System.Windows.Forms.Panel();
@@ -72,8 +67,7 @@ namespace a211_AutoCabinet.Forms
             this.groupBoxTagSearch = new System.Windows.Forms.GroupBox();
             this.textBoxSearchTag = new System.Windows.Forms.TextBox();
             this.buttonSearchTag = new System.Windows.Forms.Button();
-            this.timerAntNoCheck = new System.Windows.Forms.Timer(this.components);
-            this.timerLocationNoCheck = new System.Windows.Forms.Timer(this.components);
+            this.CurrentLoactionColorCheck = new System.Windows.Forms.Timer(this.components);
             this.LVDebugMode = new System.Windows.Forms.ListView();
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -90,11 +84,11 @@ namespace a211_AutoCabinet.Forms
             this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.buffersize = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.InventoryTimer = new System.Windows.Forms.Timer(this.components);
-            this.InventoryStopTImer = new System.Windows.Forms.Timer(this.components);
             this.listViewTagDataView = new System.Windows.Forms.ListView();
             this.tabControlModeTab = new System.Windows.Forms.TabControl();
             this.tabPageTableMode = new System.Windows.Forms.TabPage();
             this.tabPageListMode = new System.Windows.Forms.TabPage();
+            this.tabPageDebugMode = new System.Windows.Forms.TabPage();
             this.tagDataView1 = new a211_AutoCabinet.Controls.TagDataView();
             this.tagDataView2 = new a211_AutoCabinet.Controls.TagDataView();
             this.tagDataView3 = new a211_AutoCabinet.Controls.TagDataView();
@@ -239,7 +233,6 @@ namespace a211_AutoCabinet.Forms
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.memuToolStripMenuItem,
             this.settingToolStripMenuItem,
-            this.viewToolStripMenuItem,
             this.helpToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
@@ -308,42 +301,6 @@ namespace a211_AutoCabinet.Forms
             resources.ApplyResources(this.modeSettingToolStripMenuItem, "modeSettingToolStripMenuItem");
             this.modeSettingToolStripMenuItem.Click += new System.EventHandler(this.modeSettingToolStripMenuItem_Click);
             // 
-            // viewToolStripMenuItem
-            // 
-            this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.viewModeToolStripMenuItem});
-            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            resources.ApplyResources(this.viewToolStripMenuItem, "viewToolStripMenuItem");
-            this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
-            // 
-            // viewModeToolStripMenuItem
-            // 
-            this.viewModeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tableModeToolStripMenuItem,
-            this.listModeToolStripMenuItem,
-            this.debugModeToolStripMenuItem});
-            this.viewModeToolStripMenuItem.Name = "viewModeToolStripMenuItem";
-            resources.ApplyResources(this.viewModeToolStripMenuItem, "viewModeToolStripMenuItem");
-            this.viewModeToolStripMenuItem.Click += new System.EventHandler(this.viewModeToolStripMenuItem_Click);
-            // 
-            // tableModeToolStripMenuItem
-            // 
-            this.tableModeToolStripMenuItem.Name = "tableModeToolStripMenuItem";
-            resources.ApplyResources(this.tableModeToolStripMenuItem, "tableModeToolStripMenuItem");
-            this.tableModeToolStripMenuItem.Click += new System.EventHandler(this.tableModeToolStripMenuItem_Click);
-            // 
-            // listModeToolStripMenuItem
-            // 
-            this.listModeToolStripMenuItem.Name = "listModeToolStripMenuItem";
-            resources.ApplyResources(this.listModeToolStripMenuItem, "listModeToolStripMenuItem");
-            this.listModeToolStripMenuItem.Click += new System.EventHandler(this.listModeToolStripMenuItem_Click);
-            // 
-            // debugModeToolStripMenuItem
-            // 
-            this.debugModeToolStripMenuItem.Name = "debugModeToolStripMenuItem";
-            resources.ApplyResources(this.debugModeToolStripMenuItem, "debugModeToolStripMenuItem");
-            this.debugModeToolStripMenuItem.Click += new System.EventHandler(this.debugModeToolStripMenuItem_Click);
-            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
@@ -375,7 +332,6 @@ namespace a211_AutoCabinet.Forms
             // 
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.btnExcelSave);
             this.panel2.Controls.Add(this.groupBox4);
             this.panel2.Controls.Add(this.groupBox3);
             this.panel2.Controls.Add(this.groupBox2);
@@ -385,6 +341,7 @@ namespace a211_AutoCabinet.Forms
             // groupBox4
             // 
             resources.ApplyResources(this.groupBox4, "groupBox4");
+            this.groupBox4.Controls.Add(this.btnExcelSave);
             this.groupBox4.Controls.Add(this.btnInvenStop);
             this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Controls.Add(this.comboBoxComList);
@@ -515,15 +472,10 @@ namespace a211_AutoCabinet.Forms
             this.buttonSearchTag.UseVisualStyleBackColor = true;
             this.buttonSearchTag.Click += new System.EventHandler(this.buttonSearchTag_Click);
             // 
-            // timerAntNoCheck
+            // CurrentLoactionColorCheck
             // 
-            this.timerAntNoCheck.Interval = 400;
-            this.timerAntNoCheck.Tick += new System.EventHandler(this.timerAntNoCheck_Tick);
-            // 
-            // timerLocationNoCheck
-            // 
-            this.timerLocationNoCheck.Interval = 400;
-            this.timerLocationNoCheck.Tick += new System.EventHandler(this.timerLocationNoCheck_Tick);
+            this.CurrentLoactionColorCheck.Interval = 400;
+            this.CurrentLoactionColorCheck.Tick += new System.EventHandler(this.CurrentLoactionColorCheck_Tick);
             // 
             // LVDebugMode
             // 
@@ -611,10 +563,6 @@ namespace a211_AutoCabinet.Forms
             // 
             this.InventoryTimer.Tick += new System.EventHandler(this.InventoryTimer_Tick);
             // 
-            // InventoryStopTImer
-            // 
-            this.InventoryStopTImer.Tick += new System.EventHandler(this.InventoryStopTImer_Tick);
-            // 
             // listViewTagDataView
             // 
             resources.ApplyResources(this.listViewTagDataView, "listViewTagDataView");
@@ -630,6 +578,7 @@ namespace a211_AutoCabinet.Forms
             // 
             this.tabControlModeTab.Controls.Add(this.tabPageTableMode);
             this.tabControlModeTab.Controls.Add(this.tabPageListMode);
+            this.tabControlModeTab.Controls.Add(this.tabPageDebugMode);
             resources.ApplyResources(this.tabControlModeTab, "tabControlModeTab");
             this.tabControlModeTab.Name = "tabControlModeTab";
             this.tabControlModeTab.SelectedIndex = 0;
@@ -646,6 +595,13 @@ namespace a211_AutoCabinet.Forms
             resources.ApplyResources(this.tabPageListMode, "tabPageListMode");
             this.tabPageListMode.Name = "tabPageListMode";
             this.tabPageListMode.Click += new System.EventHandler(this.tabPageListMode_Click);
+            // 
+            // tabPageDebugMode
+            // 
+            resources.ApplyResources(this.tabPageDebugMode, "tabPageDebugMode");
+            this.tabPageDebugMode.Name = "tabPageDebugMode";
+            this.tabPageDebugMode.UseVisualStyleBackColor = true;
+            this.tabPageDebugMode.Click += new System.EventHandler(this.tabPageDebugMode_Click);
             // 
             // tagDataView1
             // 
@@ -1456,7 +1412,6 @@ namespace a211_AutoCabinet.Forms
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanelTagDataView;
         private System.Windows.Forms.ToolStripMenuItem memuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem settingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
 
         private TagDataView tagDataView1;
@@ -1600,17 +1555,13 @@ namespace a211_AutoCabinet.Forms
         private System.Windows.Forms.TextBox textBoxSearchTag;
         private System.Windows.Forms.Button buttonSearchTag;
         private System.Windows.Forms.Label labelRfidInventoryElapsedTimeValue;
-        private System.Windows.Forms.Timer timerAntNoCheck;
+        private System.Windows.Forms.Timer CurrentLoactionColorCheck;
         private System.Windows.Forms.ToolStripMenuItem defaultSettingsToolStripMenuItem;
-        private System.Windows.Forms.Timer timerLocationNoCheck;
         private System.Windows.Forms.ListView listViewAntTagData;
         private System.Windows.Forms.ColumnHeader colEpc;
         private System.Windows.Forms.ColumnHeader colRssi;
         private System.Windows.Forms.Label labelEventAntNum;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ToolStripMenuItem viewModeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tableModeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listModeToolStripMenuItem;
         private System.Windows.Forms.ListView LVDebugMode;
         private System.Windows.Forms.ColumnHeader columnHeader10;
         private System.Windows.Forms.ColumnHeader columnHeader11;
@@ -1625,10 +1576,8 @@ namespace a211_AutoCabinet.Forms
         private System.Windows.Forms.ColumnHeader columnHeader20;
         private System.Windows.Forms.ColumnHeader columnHeader21;
         private System.Windows.Forms.ColumnHeader columnHeader22;
-        private System.Windows.Forms.ToolStripMenuItem debugModeToolStripMenuItem;
         private System.Windows.Forms.ColumnHeader buffersize;
         private System.Windows.Forms.Timer InventoryTimer;
-        private System.Windows.Forms.Timer InventoryStopTImer;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
@@ -1640,5 +1589,6 @@ namespace a211_AutoCabinet.Forms
         private System.Windows.Forms.Button btnInvenStop;
         private System.Windows.Forms.Button btnExcelSave;
         private System.Windows.Forms.ToolStripMenuItem modeSettingToolStripMenuItem;
+        private System.Windows.Forms.TabPage tabPageDebugMode;
     }
 }
