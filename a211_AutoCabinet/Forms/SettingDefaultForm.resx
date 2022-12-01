@@ -199,7 +199,7 @@
     <value>groupBoxSetting</value>
   </data>
   <data name="&gt;&gt;btnDwellTime.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="btnSelectMask.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -226,10 +226,61 @@
     <value>groupBoxSetting</value>
   </data>
   <data name="&gt;&gt;btnSelectMask.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="groupBoxSetting.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="label6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 19</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Device ID :</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBoxSetting</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txbDeivceId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txbDeivceId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 16</value>
+  </data>
+  <data name="txbDeivceId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 27</value>
+  </data>
+  <data name="txbDeivceId.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;txbDeivceId.Name" xml:space="preserve">
+    <value>txbDeivceId</value>
+  </data>
+  <data name="&gt;&gt;txbDeivceId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbDeivceId.Parent" xml:space="preserve">
+    <value>groupBoxSetting</value>
+  </data>
+  <data name="&gt;&gt;txbDeivceId.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnRssiFilterSetting.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -259,7 +310,7 @@
     <value>groupBoxSetting</value>
   </data>
   <data name="&gt;&gt;btnRssiFilterSetting.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="buttonCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -289,7 +340,7 @@
     <value>groupBoxSetting</value>
   </data>
   <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="buttonOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -319,10 +370,154 @@
     <value>groupBoxSetting</value>
   </data>
   <data name="&gt;&gt;buttonOk.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="groupBoxSettingPanelSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txbTxOffTime.Name" xml:space="preserve">
+    <value>txbTxOffTime</value>
+  </data>
+  <data name="&gt;&gt;txbTxOffTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbTxOffTime.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;txbTxOffTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txbTxOnTime.Name" xml:space="preserve">
+    <value>txbTxOnTime</value>
+  </data>
+  <data name="&gt;&gt;txbTxOnTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbTxOnTime.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;txbTxOnTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelColumn.Name" xml:space="preserve">
+    <value>textBoxPanelColumn</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelColumn.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelColumn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelRow.Name" xml:space="preserve">
+    <value>textBoxPanelRow</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelRow.Parent" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;textBoxPanelRow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBoxSettingPanelSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="groupBoxSettingPanelSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 218</value>
+  </data>
+  <data name="groupBoxSettingPanelSize.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBoxSettingPanelSize.Text" xml:space="preserve">
+    <value>Antenna</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingPanelSize.Name" xml:space="preserve">
+    <value>groupBoxSettingPanelSize</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingPanelSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingPanelSize.Parent" xml:space="preserve">
+    <value>groupBoxSetting</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSettingPanelSize.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBoxSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="groupBoxSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 257</value>
+  </data>
+  <data name="groupBoxSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="groupBoxSetting.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSetting.Name" xml:space="preserve">
+    <value>groupBoxSetting</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -530,54 +725,6 @@
   </data>
   <data name="&gt;&gt;textBoxPanelRow.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="groupBoxSettingPanelSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 33</value>
-  </data>
-  <data name="groupBoxSettingPanelSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 218</value>
-  </data>
-  <data name="groupBoxSettingPanelSize.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="groupBoxSettingPanelSize.Text" xml:space="preserve">
-    <value>Antenna</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingPanelSize.Name" xml:space="preserve">
-    <value>groupBoxSettingPanelSize</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingPanelSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingPanelSize.Parent" xml:space="preserve">
-    <value>groupBoxSetting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSettingPanelSize.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupBoxSetting.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 12</value>
-  </data>
-  <data name="groupBoxSetting.Size" type="System.Drawing.Size, System.Drawing">
-    <value>443, 257</value>
-  </data>
-  <data name="groupBoxSetting.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="groupBoxSetting.Text" xml:space="preserve">
-    <value>Setting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSetting.Name" xml:space="preserve">
-    <value>groupBoxSetting</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSetting.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSetting.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBoxSetting.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="columnHeader3.Text" xml:space="preserve">
     <value>Power</value>

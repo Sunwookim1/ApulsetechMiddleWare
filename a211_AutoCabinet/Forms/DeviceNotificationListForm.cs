@@ -40,12 +40,19 @@ namespace a211_AutoCabinet.Forms
         // 네트워크 모드 선택 여부
         private bool NetWorkMode = false;
 
+
         Jsonparents jsonparents;
 
         public DeviceNotificationListForm()
         {
             InitializeComponent();
         }
+
+        public DeviceNotificationListForm(string DeviceId)
+        {
+            InitializeComponent();
+        }
+
 
         private void DeviceNotificationListForm_Load(object sender, EventArgs e)
         {

@@ -118,126 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 26</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;나가기</value>
-  </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 6</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 26</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;언어</value>
+    <value>156, 6</value>
   </data>
   <data name="memuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 34</value>
-  </data>
-  <data name="memuToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;메뉴</value>
-  </data>
-  <data name="defaultSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 26</value>
-  </data>
-  <data name="defaultSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;안테나 설정</value>
-  </data>
-  <data name="modeSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 26</value>
-  </data>
-  <data name="modeSettingToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;API 요청 설정</value>
+    <value>67, 24</value>
   </data>
   <data name="settingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 34</value>
+    <value>71, 24</value>
   </data>
-  <data name="settingToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;디바이스 &amp;설정</value>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 24</value>
   </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 34</value>
+    <value>55, 24</value>
   </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;도움</value>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1340, 28</value>
   </data>
-  <data name="tableLayoutPanelTagDataView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="tabPageTableMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 0</value>
   </data>
-  <data name="tableLayoutPanelTagDataView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 75</value>
+  <data name="tabPageListMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 32</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnExcelSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnExcelSave.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnExcelSave.Text" xml:space="preserve">
-    <value>엑셀 저장</value>
-  </data>
-  <data name="btnExcelSave.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnInvenStop.Text" xml:space="preserve">
-    <value>중지</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 23</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>시간 :</value>
-  </data>
-  <data name="buttonComSearch.Text" xml:space="preserve">
-    <value>검색</value>
-  </data>
-  <data name="buttonRfidInventory.Text" xml:space="preserve">
-    <value>시작</value>
-  </data>
-  <data name="buttonRfidConnect.Text" xml:space="preserve">
-    <value>연결</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>장비 제어</value>
-  </data>
-  <data name="colEpc.Width" type="System.Int32, mscorlib">
-    <value>151</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 23</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>안테나 :</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>선택된 안테나</value>
-  </data>
-  <data name="buttonSearchTag.Text" xml:space="preserve">
-    <value>검색</value>
-  </data>
-  <data name="groupBoxTagSearch.Text" xml:space="preserve">
-    <value>태그 찾기</value>
-  </data>
-  <data name="tabPageTableMode.Text" xml:space="preserve">
-    <value>테이블모드</value>
-  </data>
-  <data name="tabPageListMode.Text" xml:space="preserve">
-    <value>리스트모드</value>
-  </data>
-  <data name="tabPageDebugMode.Text" xml:space="preserve">
-    <value>디버그모드</value>
-  </data>
-  <data name="tabControlModeTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>940, 33</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>ATMW</value>
+  <data name="tabPageListMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 0</value>
   </data>
 </root>

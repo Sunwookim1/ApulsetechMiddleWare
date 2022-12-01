@@ -33,7 +33,7 @@ namespace a211_AutoCabinet
 
             Application.EnableVisualStyles(); 
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ATMW(1));
+            Application.Run(new ATMW(/*1*/));
             //Application.Run(new LoginForm());
         }
     }

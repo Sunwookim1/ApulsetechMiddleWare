@@ -90,7 +90,7 @@ namespace a211_AutoCabinet.Forms
             if (UserDataID != 0)
             {
                 MessageBox.Show("로그인 성공");
-                ATMW mainForm = new ATMW(UserDataID);
+                ATMW mainForm = new ATMW(/*UserDataID*/);
                 mainForm.ShowDialog();
             }
             else

@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Org.BouncyCastle.Asn1.X509;
+using Org.BouncyCastle.Utilities.Encoders;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +11,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,6 +25,7 @@ namespace a211_AutoCabinet.Forms
         public event GetTagList GetTagListEvent;
 
         ResponseJson responseJson;
+       
 
         // 디바이스 존재 여부 확인 API
         private bool DeviceIdRequest()
@@ -109,7 +113,7 @@ namespace a211_AutoCabinet.Forms
 
             HttpWebRequest wReq;
             HttpWebResponse wResp;
-            Uri uri = new Uri(GsUri+"/alertInputEvent");
+            Uri uri = new Uri(GsUri + "/alertInputEvent");
             wReq = (HttpWebRequest)WebRequest.Create(uri);
             wReq.Method = "POST";
             wReq.ContentType = "application/json";
@@ -134,6 +138,66 @@ namespace a211_AutoCabinet.Forms
                                       .ReadToEnd();
             }
 
+        }
+
+        // Row Column 값 보내기
+        public bool RequestUpdateColRowNum(string DeviceId, string Row, string Column)
+        {
+            ResponseUpdateColRowNum responseUpdateJson;
+
+            JObject JsonData = new JObject();
+            JsonData.Add("DEVICE_ID", DeviceId);
+            JsonData.Add("COL_NUM", Convert.ToInt32(Column));
+            JsonData.Add("ROW_NUM", Convert.ToInt32(Row));
+            string result = string.Empty;
+
+            HttpWebRequest wReq;
+            HttpWebResponse wRes;
+            Uri uri = new Uri(ApiUri + "/mwCon/updateColRowNum");
+            wReq = (HttpWebRequest)WebRequest.Create(uri);
+            wReq.Method = "POST";
+            wReq.ContentType = "application/json";
+            wReq.ContentLength = JsonData.ToString().Length;
+
+            using (StreamWriter streamwriter = new StreamWriter(wReq.GetRequestStream()))
+            {
+                streamwriter.Write(JsonData.ToString());
+            }
+
+            try
+            {
+                wRes = (HttpWebResponse)wReq.GetResponse();
+                using (StreamReader streamreader = new StreamReader(wRes.GetResponseStream()))
+                {
+                    result = streamreader.ReadToEnd();
+                }
+
+                JObject obj = JObject.Parse(result);
+
+                string objstring = obj.ToString();
+
+                responseUpdateJson = new ResponseUpdateColRowNum();
+                responseUpdateJson = JsonConvert.DeserializeObject<ResponseUpdateColRowNum>(objstring);
+
+                switch(Convert.ToInt32(responseUpdateJson.code))
+                {
+                    case 200:
+                        return true;
+                        break;
+                    case 204:
+                        MessageBox.Show("UpdateRowColumn - Failed 204");
+                        return false;
+                        break;
+                }
+                
+            }
+            catch(WebException wex)
+            {
+                var pageContent = new StreamReader(wex.Response.GetResponseStream())
+                                     .ReadToEnd();
+                MessageBox.Show(pageContent.ToString());
+            }
+            return false;
         }
 
         private void ReqeustTagList()
@@ -177,6 +241,8 @@ namespace a211_AutoCabinet.Forms
                 MessageBox.Show(ex.Status.ToString());
             }
         }
+
+       
     }
 
     public class ResponseJson
@@ -184,6 +250,13 @@ namespace a211_AutoCabinet.Forms
         public string code;
         public string message;
         public List<ValueJson> dataList;
+    }
+
+    public class ResponseUpdateColRowNum
+    {
+        public string code;
+        public string message;
+        public string data;
     }
 
     public class ValueJson

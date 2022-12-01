@@ -121,6 +121,63 @@
     <value>6, 8</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 6</value>
+  </data>
+  <data name="korToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 26</value>
+  </data>
+  <data name="korToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Kor</value>
+  </data>
+  <data name="engToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 26</value>
+  </data>
+  <data name="engToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Eng</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 26</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Language</value>
+  </data>
+  <data name="memuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="memuToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Memu</value>
+  </data>
+  <data name="defaultSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="defaultSettingsToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Default Setting</value>
+  </data>
+  <data name="modeSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 26</value>
+  </data>
+  <data name="modeSettingToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;API Request Setting</value>
+  </data>
+  <data name="settingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="settingToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Setting</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -145,93 +202,6 @@
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="memuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 24</value>
-  </data>
-  <data name="memuToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Memu</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 26</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Exit</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
-  </data>
-  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 26</value>
-  </data>
-  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Language</value>
-  </data>
-  <data name="korToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 26</value>
-  </data>
-  <data name="korToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Kor</value>
-  </data>
-  <data name="engToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 26</value>
-  </data>
-  <data name="engToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Eng</value>
-  </data>
-  <data name="settingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 24</value>
-  </data>
-  <data name="settingToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Setting</value>
-  </data>
-  <data name="defaultSettingsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 26</value>
-  </data>
-  <data name="defaultSettingsToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Default Setting</value>
-  </data>
-  <data name="modeSettingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 26</value>
-  </data>
-  <data name="modeSettingToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;API Request Setting</value>
-  </data>
-  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 24</value>
-  </data>
-  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;View</value>
-  </data>
-  <data name="viewModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 26</value>
-  </data>
-  <data name="viewModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;View Mode</value>
-  </data>
-  <data name="tableModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 26</value>
-  </data>
-  <data name="tableModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Table Mode</value>
-  </data>
-  <data name="listModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 26</value>
-  </data>
-  <data name="listModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;List Mode</value>
-  </data>
-  <data name="debugModeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 26</value>
-  </data>
-  <data name="debugModeToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Debug Mode</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 24</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Help</value>
   </data>
   <metadata name="statusStripLog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>122, 8</value>
@@ -273,6 +243,21 @@
   <data name="panelTagDataView.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="tableLayoutPanelTagDataView.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 10</value>
+  </data>
+  <data name="tableLayoutPanelTagDataView.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
   <data name="&gt;&gt;tableLayoutPanelTagDataView.Name" xml:space="preserve">
     <value>tableLayoutPanelTagDataView</value>
   </data>
@@ -309,242 +294,17 @@
   <data name="&gt;&gt;panelTagDataView.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="tableLayoutPanelTagDataView.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelTagDataView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
-  </data>
-  <data name="tableLayoutPanelTagDataView.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanelTagDataView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>18, 15</value>
-  </data>
-  <data name="tableLayoutPanelTagDataView.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelTagDataView.Name" xml:space="preserve">
-    <value>tableLayoutPanelTagDataView</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelTagDataView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelTagDataView.Parent" xml:space="preserve">
-    <value>panelTagDataView</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanelTagDataView.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanelTagDataView.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;btnExcelSave.Name" xml:space="preserve">
-    <value>btnExcelSave</value>
-  </data>
-  <data name="&gt;&gt;btnExcelSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnExcelSave.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;btnExcelSave.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Name" xml:space="preserve">
-    <value>groupBoxTagSearch</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>958, 42</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 569</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="groupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;btnInvenStop.Name" xml:space="preserve">
-    <value>btnInvenStop</value>
-  </data>
-  <data name="&gt;&gt;btnInvenStop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnInvenStop.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;btnInvenStop.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;comboBoxComList.Name" xml:space="preserve">
-    <value>comboBoxComList</value>
-  </data>
-  <data name="&gt;&gt;comboBoxComList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBoxComList.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;comboBoxComList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Name" xml:space="preserve">
-    <value>labelRfidInventoryElapsedTimeValue</value>
-  </data>
-  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonComSearch.Name" xml:space="preserve">
-    <value>buttonComSearch</value>
-  </data>
-  <data name="&gt;&gt;buttonComSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonComSearch.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;buttonComSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidInventory.Name" xml:space="preserve">
-    <value>buttonRfidInventory</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidInventory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidInventory.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidInventory.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidConnect.Name" xml:space="preserve">
-    <value>buttonRfidConnect</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidConnect.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidConnect.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;buttonRfidConnect.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 6</value>
-  </data>
-  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>356, 258</value>
-  </data>
-  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Tag Search</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="btnExcelSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnExcelSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 210</value>
+    <value>10, 165</value>
   </data>
   <data name="btnExcelSave.Size" type="System.Drawing.Size, System.Drawing">
     <value>340, 86</value>
@@ -562,7 +322,7 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnExcelSave.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;btnExcelSave.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -598,7 +358,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;btnInvenStop.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -628,7 +388,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="comboBoxComList.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 30</value>
@@ -649,7 +409,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;comboBoxComList.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelRfidInventoryElapsedTimeValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -682,7 +442,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;labelRfidInventoryElapsedTimeValue.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonComSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -712,7 +472,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;buttonComSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonRfidInventory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -745,7 +505,7 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;buttonRfidInventory.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="buttonRfidConnect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -775,79 +535,55 @@
     <value>groupBox4</value>
   </data>
   <data name="&gt;&gt;buttonRfidConnect.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 258</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;listViewAntTagData.Name" xml:space="preserve">
-    <value>listViewAntTagData</value>
-  </data>
-  <data name="&gt;&gt;listViewAntTagData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listViewAntTagData.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;listViewAntTagData.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelEventAntNum.Name" xml:space="preserve">
-    <value>labelEventAntNum</value>
-  </data>
-  <data name="&gt;&gt;labelEventAntNum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelEventAntNum.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;labelEventAntNum.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 272</value>
-  </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 218</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Tag Search</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="listViewAntTagData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="colEpc.Text" xml:space="preserve">
+    <value>Epc</value>
+  </data>
+  <data name="colEpc.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colRssi.Text" xml:space="preserve">
+    <value>Rssi</value>
+  </data>
+  <data name="colRssi.Width" type="System.Int32, mscorlib">
+    <value>150</value>
   </data>
   <data name="listViewAntTagData.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 53</value>
@@ -869,18 +605,6 @@
   </data>
   <data name="&gt;&gt;listViewAntTagData.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="colEpc.Text" xml:space="preserve">
-    <value>Epc</value>
-  </data>
-  <data name="colEpc.Width" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="colRssi.Text" xml:space="preserve">
-    <value>Rssi</value>
-  </data>
-  <data name="colRssi.Width" type="System.Int32, mscorlib">
-    <value>150</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -942,6 +666,36 @@
   <data name="&gt;&gt;labelEventAntNum.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 272</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 218</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 401</value>
   </data>
@@ -964,64 +718,10 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="groupBoxTagSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearchTag.Name" xml:space="preserve">
-    <value>textBoxSearchTag</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearchTag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearchTag.Parent" xml:space="preserve">
-    <value>groupBoxTagSearch</value>
-  </data>
-  <data name="&gt;&gt;textBoxSearchTag.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonSearchTag.Name" xml:space="preserve">
-    <value>buttonSearchTag</value>
-  </data>
-  <data name="&gt;&gt;buttonSearchTag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSearchTag.Parent" xml:space="preserve">
-    <value>groupBoxTagSearch</value>
-  </data>
-  <data name="&gt;&gt;buttonSearchTag.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBoxTagSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 492</value>
-  </data>
-  <data name="groupBoxTagSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBoxTagSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="groupBoxTagSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 73</value>
-  </data>
-  <data name="groupBoxTagSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="groupBoxTagSearch.Text" xml:space="preserve">
-    <value>Tag Search</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Name" xml:space="preserve">
-    <value>groupBoxTagSearch</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;groupBoxTagSearch.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="textBoxSearchTag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1083,38 +783,62 @@
   <data name="&gt;&gt;buttonSearchTag.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="timerAntNoCheck.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>651, 7</value>
-  </metadata>
-  <metadata name="timerLocationNoCheck.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>451, 6</value>
+  <data name="groupBoxTagSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 492</value>
+  </data>
+  <data name="groupBoxTagSearch.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBoxTagSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="groupBoxTagSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 73</value>
+  </data>
+  <data name="groupBoxTagSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBoxTagSearch.Text" xml:space="preserve">
+    <value>Tag Search</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Name" xml:space="preserve">
+    <value>groupBoxTagSearch</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTagSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>958, 42</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 569</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="CurrentLoactionColorCheck.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>283, 14</value>
   </metadata>
   <data name="LVDebugMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="LVDebugMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 74</value>
-  </data>
-  <data name="LVDebugMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>940, 537</value>
-  </data>
-  <data name="LVDebugMode.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LVDebugMode.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;LVDebugMode.Name" xml:space="preserve">
-    <value>LVDebugMode</value>
-  </data>
-  <data name="&gt;&gt;LVDebugMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LVDebugMode.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LVDebugMode.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="columnHeader10.Text" xml:space="preserve">
     <value>Ant</value>
@@ -1197,11 +921,32 @@
   <data name="buffersize.Width" type="System.Int32, mscorlib">
     <value>120</value>
   </data>
+  <data name="LVDebugMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 74</value>
+  </data>
+  <data name="LVDebugMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 537</value>
+  </data>
+  <data name="LVDebugMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LVDebugMode.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Name" xml:space="preserve">
+    <value>LVDebugMode</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LVDebugMode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <metadata name="InventoryTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>802, 7</value>
-  </metadata>
-  <metadata name="InventoryStopTImer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>937, 7</value>
+    <value>524, 20</value>
   </metadata>
   <data name="listViewTagDataView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -1229,51 +974,6 @@
   </data>
   <data name="&gt;&gt;listViewTagDataView.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabPageTableMode.Name" xml:space="preserve">
-    <value>tabPageTableMode</value>
-  </data>
-  <data name="&gt;&gt;tabPageTableMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageTableMode.Parent" xml:space="preserve">
-    <value>tabControlModeTab</value>
-  </data>
-  <data name="&gt;&gt;tabPageTableMode.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabPageListMode.Name" xml:space="preserve">
-    <value>tabPageListMode</value>
-  </data>
-  <data name="&gt;&gt;tabPageListMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageListMode.Parent" xml:space="preserve">
-    <value>tabControlModeTab</value>
-  </data>
-  <data name="&gt;&gt;tabPageListMode.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControlModeTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 43</value>
-  </data>
-  <data name="tabControlModeTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>940, 28</value>
-  </data>
-  <data name="tabControlModeTab.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;tabControlModeTab.Name" xml:space="preserve">
-    <value>tabControlModeTab</value>
-  </data>
-  <data name="&gt;&gt;tabControlModeTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControlModeTab.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControlModeTab.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="tabPageTableMode.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 32</value>
@@ -1329,6 +1029,54 @@
   <data name="&gt;&gt;tabPageListMode.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="tabPageDebugMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 32</value>
+  </data>
+  <data name="tabPageDebugMode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageDebugMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>932, 0</value>
+  </data>
+  <data name="tabPageDebugMode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageDebugMode.Text" xml:space="preserve">
+    <value>DebugMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageDebugMode.Name" xml:space="preserve">
+    <value>tabPageDebugMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageDebugMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageDebugMode.Parent" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabPageDebugMode.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControlModeTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="tabControlModeTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 26</value>
+  </data>
+  <data name="tabControlModeTab.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Name" xml:space="preserve">
+    <value>tabControlModeTab</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlModeTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tagDataView1.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
   </data>
@@ -1348,7 +1096,7 @@
     <value>tagDataView1</value>
   </data>
   <data name="&gt;&gt;tagDataView1.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView2.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1369,7 +1117,7 @@
     <value>tagDataView2</value>
   </data>
   <data name="&gt;&gt;tagDataView2.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView3.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1390,7 +1138,7 @@
     <value>tagDataView3</value>
   </data>
   <data name="&gt;&gt;tagDataView3.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView4.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1411,7 +1159,7 @@
     <value>tagDataView4</value>
   </data>
   <data name="&gt;&gt;tagDataView4.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView5.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1432,7 +1180,7 @@
     <value>tagDataView5</value>
   </data>
   <data name="&gt;&gt;tagDataView5.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView6.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1453,7 +1201,7 @@
     <value>tagDataView6</value>
   </data>
   <data name="&gt;&gt;tagDataView6.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView7.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1474,7 +1222,7 @@
     <value>tagDataView7</value>
   </data>
   <data name="&gt;&gt;tagDataView7.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView8.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1495,7 +1243,7 @@
     <value>tagDataView8</value>
   </data>
   <data name="&gt;&gt;tagDataView8.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView9.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1516,7 +1264,7 @@
     <value>tagDataView9</value>
   </data>
   <data name="&gt;&gt;tagDataView9.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView10.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1537,7 +1285,7 @@
     <value>tagDataView10</value>
   </data>
   <data name="&gt;&gt;tagDataView10.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView11.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1558,7 +1306,7 @@
     <value>tagDataView11</value>
   </data>
   <data name="&gt;&gt;tagDataView11.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView12.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1579,7 +1327,7 @@
     <value>tagDataView12</value>
   </data>
   <data name="&gt;&gt;tagDataView12.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView13.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1600,7 +1348,7 @@
     <value>tagDataView13</value>
   </data>
   <data name="&gt;&gt;tagDataView13.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView14.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1621,7 +1369,7 @@
     <value>tagDataView14</value>
   </data>
   <data name="&gt;&gt;tagDataView14.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView15.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1642,7 +1390,7 @@
     <value>tagDataView15</value>
   </data>
   <data name="&gt;&gt;tagDataView15.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView16.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1663,7 +1411,7 @@
     <value>tagDataView16</value>
   </data>
   <data name="&gt;&gt;tagDataView16.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView17.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1684,7 +1432,7 @@
     <value>tagDataView17</value>
   </data>
   <data name="&gt;&gt;tagDataView17.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView18.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1705,7 +1453,7 @@
     <value>tagDataView18</value>
   </data>
   <data name="&gt;&gt;tagDataView18.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView19.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1726,7 +1474,7 @@
     <value>tagDataView19</value>
   </data>
   <data name="&gt;&gt;tagDataView19.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView20.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1747,7 +1495,7 @@
     <value>tagDataView20</value>
   </data>
   <data name="&gt;&gt;tagDataView20.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView21.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1768,7 +1516,7 @@
     <value>tagDataView21</value>
   </data>
   <data name="&gt;&gt;tagDataView21.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView22.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1789,7 +1537,7 @@
     <value>tagDataView22</value>
   </data>
   <data name="&gt;&gt;tagDataView22.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView23.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1810,7 +1558,7 @@
     <value>tagDataView23</value>
   </data>
   <data name="&gt;&gt;tagDataView23.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView24.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1831,7 +1579,7 @@
     <value>tagDataView24</value>
   </data>
   <data name="&gt;&gt;tagDataView24.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView25.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1852,7 +1600,7 @@
     <value>tagDataView25</value>
   </data>
   <data name="&gt;&gt;tagDataView25.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView26.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1873,7 +1621,7 @@
     <value>tagDataView26</value>
   </data>
   <data name="&gt;&gt;tagDataView26.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView27.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1894,7 +1642,7 @@
     <value>tagDataView27</value>
   </data>
   <data name="&gt;&gt;tagDataView27.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView28.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1915,7 +1663,7 @@
     <value>tagDataView28</value>
   </data>
   <data name="&gt;&gt;tagDataView28.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView29.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1936,7 +1684,7 @@
     <value>tagDataView29</value>
   </data>
   <data name="&gt;&gt;tagDataView29.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView30.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1957,7 +1705,7 @@
     <value>tagDataView30</value>
   </data>
   <data name="&gt;&gt;tagDataView30.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView31.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1978,7 +1726,7 @@
     <value>tagDataView31</value>
   </data>
   <data name="&gt;&gt;tagDataView31.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView32.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -1999,7 +1747,7 @@
     <value>tagDataView32</value>
   </data>
   <data name="&gt;&gt;tagDataView32.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView33.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2020,7 +1768,7 @@
     <value>tagDataView33</value>
   </data>
   <data name="&gt;&gt;tagDataView33.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView34.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2041,7 +1789,7 @@
     <value>tagDataView34</value>
   </data>
   <data name="&gt;&gt;tagDataView34.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView35.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2062,7 +1810,7 @@
     <value>tagDataView35</value>
   </data>
   <data name="&gt;&gt;tagDataView35.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView36.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2083,7 +1831,7 @@
     <value>tagDataView36</value>
   </data>
   <data name="&gt;&gt;tagDataView36.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView37.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2104,7 +1852,7 @@
     <value>tagDataView37</value>
   </data>
   <data name="&gt;&gt;tagDataView37.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView38.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2125,7 +1873,7 @@
     <value>tagDataView38</value>
   </data>
   <data name="&gt;&gt;tagDataView38.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView39.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2146,7 +1894,7 @@
     <value>tagDataView39</value>
   </data>
   <data name="&gt;&gt;tagDataView39.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView40.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2167,7 +1915,7 @@
     <value>tagDataView40</value>
   </data>
   <data name="&gt;&gt;tagDataView40.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView41.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2188,7 +1936,7 @@
     <value>tagDataView41</value>
   </data>
   <data name="&gt;&gt;tagDataView41.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView42.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2209,7 +1957,7 @@
     <value>tagDataView42</value>
   </data>
   <data name="&gt;&gt;tagDataView42.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView43.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2230,7 +1978,7 @@
     <value>tagDataView43</value>
   </data>
   <data name="&gt;&gt;tagDataView43.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView44.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2251,7 +1999,7 @@
     <value>tagDataView44</value>
   </data>
   <data name="&gt;&gt;tagDataView44.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView45.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2272,7 +2020,7 @@
     <value>tagDataView45</value>
   </data>
   <data name="&gt;&gt;tagDataView45.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView46.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2293,7 +2041,7 @@
     <value>tagDataView46</value>
   </data>
   <data name="&gt;&gt;tagDataView46.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView47.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2314,7 +2062,7 @@
     <value>tagDataView47</value>
   </data>
   <data name="&gt;&gt;tagDataView47.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView48.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2335,7 +2083,7 @@
     <value>tagDataView48</value>
   </data>
   <data name="&gt;&gt;tagDataView48.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView49.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2356,7 +2104,7 @@
     <value>tagDataView49</value>
   </data>
   <data name="&gt;&gt;tagDataView49.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView50.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2377,7 +2125,7 @@
     <value>tagDataView50</value>
   </data>
   <data name="&gt;&gt;tagDataView50.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView51.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2398,7 +2146,7 @@
     <value>tagDataView51</value>
   </data>
   <data name="&gt;&gt;tagDataView51.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView52.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2419,7 +2167,7 @@
     <value>tagDataView52</value>
   </data>
   <data name="&gt;&gt;tagDataView52.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView53.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2440,7 +2188,7 @@
     <value>tagDataView53</value>
   </data>
   <data name="&gt;&gt;tagDataView53.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView54.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2461,7 +2209,7 @@
     <value>tagDataView54</value>
   </data>
   <data name="&gt;&gt;tagDataView54.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView55.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2482,7 +2230,7 @@
     <value>tagDataView55</value>
   </data>
   <data name="&gt;&gt;tagDataView55.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView56.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2503,7 +2251,7 @@
     <value>tagDataView56</value>
   </data>
   <data name="&gt;&gt;tagDataView56.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView57.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2524,7 +2272,7 @@
     <value>tagDataView57</value>
   </data>
   <data name="&gt;&gt;tagDataView57.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView58.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2545,7 +2293,7 @@
     <value>tagDataView58</value>
   </data>
   <data name="&gt;&gt;tagDataView58.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView59.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2566,7 +2314,7 @@
     <value>tagDataView59</value>
   </data>
   <data name="&gt;&gt;tagDataView59.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView60.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2587,7 +2335,7 @@
     <value>tagDataView60</value>
   </data>
   <data name="&gt;&gt;tagDataView60.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView61.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2608,7 +2356,7 @@
     <value>tagDataView61</value>
   </data>
   <data name="&gt;&gt;tagDataView61.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView62.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2629,7 +2377,7 @@
     <value>tagDataView62</value>
   </data>
   <data name="&gt;&gt;tagDataView62.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView63.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2650,7 +2398,7 @@
     <value>tagDataView63</value>
   </data>
   <data name="&gt;&gt;tagDataView63.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView64.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2671,7 +2419,7 @@
     <value>tagDataView64</value>
   </data>
   <data name="&gt;&gt;tagDataView64.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView65.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2692,7 +2440,7 @@
     <value>tagDataView65</value>
   </data>
   <data name="&gt;&gt;tagDataView65.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView66.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2713,7 +2461,7 @@
     <value>tagDataView66</value>
   </data>
   <data name="&gt;&gt;tagDataView66.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView67.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2734,7 +2482,7 @@
     <value>tagDataView67</value>
   </data>
   <data name="&gt;&gt;tagDataView67.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView68.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2755,7 +2503,7 @@
     <value>tagDataView68</value>
   </data>
   <data name="&gt;&gt;tagDataView68.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView69.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2776,7 +2524,7 @@
     <value>tagDataView69</value>
   </data>
   <data name="&gt;&gt;tagDataView69.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView70.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2797,7 +2545,7 @@
     <value>tagDataView70</value>
   </data>
   <data name="&gt;&gt;tagDataView70.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView71.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2818,7 +2566,7 @@
     <value>tagDataView71</value>
   </data>
   <data name="&gt;&gt;tagDataView71.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView72.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2839,7 +2587,7 @@
     <value>tagDataView72</value>
   </data>
   <data name="&gt;&gt;tagDataView72.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView73.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2860,7 +2608,7 @@
     <value>tagDataView73</value>
   </data>
   <data name="&gt;&gt;tagDataView73.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView74.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2881,7 +2629,7 @@
     <value>tagDataView74</value>
   </data>
   <data name="&gt;&gt;tagDataView74.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView75.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2902,7 +2650,7 @@
     <value>tagDataView75</value>
   </data>
   <data name="&gt;&gt;tagDataView75.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView76.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2923,7 +2671,7 @@
     <value>tagDataView76</value>
   </data>
   <data name="&gt;&gt;tagDataView76.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView77.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2944,7 +2692,7 @@
     <value>tagDataView77</value>
   </data>
   <data name="&gt;&gt;tagDataView77.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView78.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2965,7 +2713,7 @@
     <value>tagDataView78</value>
   </data>
   <data name="&gt;&gt;tagDataView78.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView79.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -2986,7 +2734,7 @@
     <value>tagDataView79</value>
   </data>
   <data name="&gt;&gt;tagDataView79.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView80.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3007,7 +2755,7 @@
     <value>tagDataView80</value>
   </data>
   <data name="&gt;&gt;tagDataView80.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView81.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3028,7 +2776,7 @@
     <value>tagDataView81</value>
   </data>
   <data name="&gt;&gt;tagDataView81.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView82.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3049,7 +2797,7 @@
     <value>tagDataView82</value>
   </data>
   <data name="&gt;&gt;tagDataView82.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView83.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3070,7 +2818,7 @@
     <value>tagDataView83</value>
   </data>
   <data name="&gt;&gt;tagDataView83.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView84.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3091,7 +2839,7 @@
     <value>tagDataView84</value>
   </data>
   <data name="&gt;&gt;tagDataView84.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView85.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3112,7 +2860,7 @@
     <value>tagDataView85</value>
   </data>
   <data name="&gt;&gt;tagDataView85.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView86.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3133,7 +2881,7 @@
     <value>tagDataView86</value>
   </data>
   <data name="&gt;&gt;tagDataView86.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView87.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3154,7 +2902,7 @@
     <value>tagDataView87</value>
   </data>
   <data name="&gt;&gt;tagDataView87.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView88.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3175,7 +2923,7 @@
     <value>tagDataView88</value>
   </data>
   <data name="&gt;&gt;tagDataView88.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView89.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3196,7 +2944,7 @@
     <value>tagDataView89</value>
   </data>
   <data name="&gt;&gt;tagDataView89.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView90.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3217,7 +2965,7 @@
     <value>tagDataView90</value>
   </data>
   <data name="&gt;&gt;tagDataView90.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView91.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3238,7 +2986,7 @@
     <value>tagDataView91</value>
   </data>
   <data name="&gt;&gt;tagDataView91.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView92.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3259,7 +3007,7 @@
     <value>tagDataView92</value>
   </data>
   <data name="&gt;&gt;tagDataView92.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView93.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3280,7 +3028,7 @@
     <value>tagDataView93</value>
   </data>
   <data name="&gt;&gt;tagDataView93.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView94.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3301,7 +3049,7 @@
     <value>tagDataView94</value>
   </data>
   <data name="&gt;&gt;tagDataView94.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView95.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3322,7 +3070,7 @@
     <value>tagDataView95</value>
   </data>
   <data name="&gt;&gt;tagDataView95.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView96.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3343,7 +3091,7 @@
     <value>tagDataView96</value>
   </data>
   <data name="&gt;&gt;tagDataView96.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView97.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3364,7 +3112,7 @@
     <value>tagDataView97</value>
   </data>
   <data name="&gt;&gt;tagDataView97.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView98.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3385,7 +3133,7 @@
     <value>tagDataView98</value>
   </data>
   <data name="&gt;&gt;tagDataView98.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView99.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3406,7 +3154,7 @@
     <value>tagDataView99</value>
   </data>
   <data name="&gt;&gt;tagDataView99.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView100.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3427,7 +3175,7 @@
     <value>tagDataView100</value>
   </data>
   <data name="&gt;&gt;tagDataView100.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView101.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3448,7 +3196,7 @@
     <value>tagDataView101</value>
   </data>
   <data name="&gt;&gt;tagDataView101.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView102.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3469,7 +3217,7 @@
     <value>tagDataView102</value>
   </data>
   <data name="&gt;&gt;tagDataView102.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView103.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3490,7 +3238,7 @@
     <value>tagDataView103</value>
   </data>
   <data name="&gt;&gt;tagDataView103.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView104.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3511,7 +3259,7 @@
     <value>tagDataView104</value>
   </data>
   <data name="&gt;&gt;tagDataView104.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView105.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3532,7 +3280,7 @@
     <value>tagDataView105</value>
   </data>
   <data name="&gt;&gt;tagDataView105.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView106.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3553,7 +3301,7 @@
     <value>tagDataView106</value>
   </data>
   <data name="&gt;&gt;tagDataView106.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView107.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3574,7 +3322,7 @@
     <value>tagDataView107</value>
   </data>
   <data name="&gt;&gt;tagDataView107.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView108.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3595,7 +3343,7 @@
     <value>tagDataView108</value>
   </data>
   <data name="&gt;&gt;tagDataView108.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView109.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3616,7 +3364,7 @@
     <value>tagDataView109</value>
   </data>
   <data name="&gt;&gt;tagDataView109.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView110.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3637,7 +3385,7 @@
     <value>tagDataView110</value>
   </data>
   <data name="&gt;&gt;tagDataView110.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView111.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3658,7 +3406,7 @@
     <value>tagDataView111</value>
   </data>
   <data name="&gt;&gt;tagDataView111.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView112.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3679,7 +3427,7 @@
     <value>tagDataView112</value>
   </data>
   <data name="&gt;&gt;tagDataView112.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView113.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3700,7 +3448,7 @@
     <value>tagDataView113</value>
   </data>
   <data name="&gt;&gt;tagDataView113.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView114.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3721,7 +3469,7 @@
     <value>tagDataView114</value>
   </data>
   <data name="&gt;&gt;tagDataView114.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView115.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3742,7 +3490,7 @@
     <value>tagDataView115</value>
   </data>
   <data name="&gt;&gt;tagDataView115.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView116.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3763,7 +3511,7 @@
     <value>tagDataView116</value>
   </data>
   <data name="&gt;&gt;tagDataView116.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView117.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3784,7 +3532,7 @@
     <value>tagDataView117</value>
   </data>
   <data name="&gt;&gt;tagDataView117.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView118.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3805,7 +3553,7 @@
     <value>tagDataView118</value>
   </data>
   <data name="&gt;&gt;tagDataView118.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView119.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3826,7 +3574,7 @@
     <value>tagDataView119</value>
   </data>
   <data name="&gt;&gt;tagDataView119.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView120.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3847,7 +3595,7 @@
     <value>tagDataView120</value>
   </data>
   <data name="&gt;&gt;tagDataView120.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView121.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3868,7 +3616,7 @@
     <value>tagDataView121</value>
   </data>
   <data name="&gt;&gt;tagDataView121.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView122.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3889,7 +3637,7 @@
     <value>tagDataView122</value>
   </data>
   <data name="&gt;&gt;tagDataView122.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView123.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3910,7 +3658,7 @@
     <value>tagDataView123</value>
   </data>
   <data name="&gt;&gt;tagDataView123.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView124.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3931,7 +3679,7 @@
     <value>tagDataView124</value>
   </data>
   <data name="&gt;&gt;tagDataView124.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView125.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3952,7 +3700,7 @@
     <value>tagDataView125</value>
   </data>
   <data name="&gt;&gt;tagDataView125.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView126.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3973,7 +3721,7 @@
     <value>tagDataView126</value>
   </data>
   <data name="&gt;&gt;tagDataView126.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView127.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -3994,7 +3742,7 @@
     <value>tagDataView127</value>
   </data>
   <data name="&gt;&gt;tagDataView127.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="tagDataView128.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
@@ -4015,13 +3763,13 @@
     <value>tagDataView128</value>
   </data>
   <data name="&gt;&gt;tagDataView128.Type" xml:space="preserve">
-    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.47.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>a211_AutoCabinet.Controls.TagDataView, a211_AutoCabinet, Version=2022.11.78.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
+    <value>126</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>10, 23</value>
@@ -4031,6 +3779,9 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>맑은 고딕, 10pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
@@ -4095,36 +3846,6 @@
   <data name="&gt;&gt;modeSettingToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
-    <value>viewToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;viewModeToolStripMenuItem.Name" xml:space="preserve">
-    <value>viewModeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;viewModeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableModeToolStripMenuItem.Name" xml:space="preserve">
-    <value>tableModeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;tableModeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listModeToolStripMenuItem.Name" xml:space="preserve">
-    <value>listModeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;listModeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;debugModeToolStripMenuItem.Name" xml:space="preserve">
-    <value>debugModeToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;debugModeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
     <value>helpToolStripMenuItem</value>
   </data>
@@ -4143,16 +3864,10 @@
   <data name="&gt;&gt;colRssi.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;timerAntNoCheck.Name" xml:space="preserve">
-    <value>timerAntNoCheck</value>
+  <data name="&gt;&gt;CurrentLoactionColorCheck.Name" xml:space="preserve">
+    <value>CurrentLoactionColorCheck</value>
   </data>
-  <data name="&gt;&gt;timerAntNoCheck.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;timerLocationNoCheck.Name" xml:space="preserve">
-    <value>timerLocationNoCheck</value>
-  </data>
-  <data name="&gt;&gt;timerLocationNoCheck.Type" xml:space="preserve">
+  <data name="&gt;&gt;CurrentLoactionColorCheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;columnHeader10.Name" xml:space="preserve">
@@ -4243,12 +3958,6 @@
     <value>InventoryTimer</value>
   </data>
   <data name="&gt;&gt;InventoryTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InventoryStopTImer.Name" xml:space="preserve">
-    <value>InventoryStopTImer</value>
-  </data>
-  <data name="&gt;&gt;InventoryStopTImer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

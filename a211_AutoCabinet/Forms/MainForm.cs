@@ -153,9 +153,9 @@ namespace a211_AutoCabinet.Forms
         private ToolStripMenuItem mCurrentLanguageItem;
         private string CultureString = string.Empty;
 
-        public ATMW(int userDataID)
+        public ATMW(/*int userDataID*/)
         {
-            UserDataID = userDataID;
+            //UserDataID = userDataID;
             GetCultureInfo();
             InitializeComponent();
             InitializeArray();
@@ -166,7 +166,6 @@ namespace a211_AutoCabinet.Forms
             InitializePorts();
             IntializeStopWatchTimer();
             InitListView();
-            tableModeToolStripMenuItem.Checked = true;
             m_fnBufferLength = new BufferSettingForm.TagBufferLengthArray(BufferLengthReturn);
             BufferSettingForm.BufferSettingEvent += m_fnBufferLength;
 
@@ -211,6 +210,15 @@ namespace a211_AutoCabinet.Forms
             listViewTagDataView.Columns.Add("Epc", 500, HorizontalAlignment.Left);
             listViewTagDataView.Columns.Add("Rssi", 200, HorizontalAlignment.Left);
             listViewTagDataView.Columns.Add("Time", 500, HorizontalAlignment.Left);
+
+            for (int i = 0; i < 128; i++)
+            {
+                string[] items = new string[15];
+                items[0] = (i + 1).ToString();
+                ListViewItem item = new ListViewItem(items);
+                LVDebugMode.Items.Add(item);
+            }
+            InitDebugModeList();
         }
 
         private void GetCultureInfo()
@@ -1078,83 +1086,6 @@ namespace a211_AutoCabinet.Forms
 
         private string datetime;
 
-        private void CompareCabinet(string epc)
-        {
-            // 현재 태그가 읽혔는데, 이 태그가 다른 선반에도 있는지 검사
-            // 안테나 수만큼
-            for (int i = 0; i < AntCount; i++)
-            {
-                //  동일 선반이 아닐때
-                if (i != g_TagCurAntNo)
-                {
-                    // 토탈 카운트가 null이 아니라면
-                    if (g_TagBufferTotalData[i, 0] != null)
-                    {
-                        // 버퍼에 현재 읽은 태그가 있는지 검사
-                        int index = Array.IndexOf(g_TagBufferTotalData[i, 0], epc);
-                        // 있다면
-                        if (index != -1)
-                        {
-                            // 토탈 버퍼에 태그 값 지워주고
-                            List<string> tmpTotalBuffer = new List<string>(g_TagBufferTotalData[i, 0]);
-                            tmpTotalBuffer.RemoveAt(index);
-                            g_TagBufferTotalData[i, 0] = tmpTotalBuffer.ToArray();
-
-                            tmpTotalBuffer = new List<string>(g_TagBufferTotalData[i, 1]);
-                            tmpTotalBuffer.RemoveAt(index);
-                            g_TagBufferTotalData[i, 1] = tmpTotalBuffer.ToArray();
-
-                            // 각 버퍼에 태그 값 지워준다.
-                            for (int j = 0; j < BufferSettingLength[CurentPort]; j++)
-                            {
-                                if (g_TagBufferData[i, j, 0] != null)
-                                {
-                                    if (g_TagBufferData[i, j, 0].Length != 0)
-                                    {
-                                        index = Array.IndexOf(g_TagBufferData[i, j, 0], epc);
-                                        if (index != -1)
-                                        {
-                                            tmpTotalBuffer = new List<string>(g_TagBufferData[i, j, 0]);
-                                            tmpTotalBuffer.RemoveAt(index);
-                                            g_TagBufferData[i, j, 0] = tmpTotalBuffer.ToArray();
-
-                                            tmpTotalBuffer = new List<string>(g_TagBufferData[i, j, 1]);
-                                            tmpTotalBuffer.RemoveAt(index);
-                                            g_TagBufferData[i, j, 1] = tmpTotalBuffer.ToArray();
-
-                                            if (g_TagBufferTotalData[i, 0].Length == 0)
-                                            {
-                                                LVDebugMode.Items[i].SubItems[j + 1].Text = "0";
-                                            }
-                                            else
-                                                LVDebugMode.Items[i].SubItems[j + 1].Text = g_TagBufferTotalData[i, 0].Length.ToString();
-
-
-                                            if (workerId != null)
-                                            {
-                                                outputCount++;
-                                                stockCount--;
-                                                Debug.WriteLine(workerId + "님이 " + epc + "를 출고하셨습니다.");
-                                            }
-                                            datetime = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
-
-                                            tagDataViews[i].labelStateOUT.BackColor = Color.Blue;
-                                        }
-                                    }
-
-                                }
-                            }
-                            DateCheck();
-
-                            LVDebugMode.Items[i].SubItems[11].Text = g_TagBufferTotalData[i, 0].Length.ToString();
-                            //tagDataViews[i].labelTagCount.Text = g_TagBufferTotalData[i, 0].Length.ToString();
-                        }
-                    }
-                }
-            }
-        }
-
-
         private bool TagCompareRssi(string epc, string rssi, int curentPort)
         {
             for (int i = 0; i < AntCount; i++)
@@ -1186,292 +1117,6 @@ namespace a211_AutoCabinet.Forms
                 }
             }
             return true;
-        }
-
-        // CompareRssi
-        private bool TagCompareRssi1(string epc, string rssi, int curentPort)
-        {
-            string[,,][] g_NewTagBufferData = new string[128, 11, 3][];
-            string CompareRssi1 = string.Empty;
-            string CompareRssi2 = string.Empty;
-            string CompareRssi = string.Empty;
-            int index1 = 0;
-            int index2 = 0;
-            int index;
-
-            // 안테나 개수 만큼
-            for (int i = 0; i < AntCount; i++)
-            {
-                if (curentPort != i)
-                {
-                    bool CompareCheck = false;
-                    // 각 포트의 버퍼들을 순환한다.
-                    for (int j = 0; j < 2; j++)
-                    {
-                        if (g_TagBufferData[i, j, 0] != null)
-                        {
-                            //만약 현재 읽은 태그와 동일 태그가 다른 포트에도 있는지 확인한다.
-                            if (g_TagBufferData[i, j, 0].Contains(epc))
-                            {
-                                // 잇다면 CompareCheck를 true
-                                CompareCheck = true;
-                            }
-                        }
-                    }
-
-                    if (CompareCheck)
-                    {
-                        int CheckCount = 0;
-                        // 각 버퍼에 동일 값이 모두 존재하는지 체크
-                        for (int k = 0; k < 2; k++)
-                        {
-                            if (g_TagBufferData[i, k, 0] != null)
-                            {
-                                if (g_TagBufferData[i, k, 0].Contains(epc))
-                                {
-                                    CheckCount++;
-                                }
-                                else
-                                    break;
-                            }
-                        }
-                        // CheckCount 2면 모든 버퍼에 존재한다는 뜻
-                        if (CheckCount == 2)
-                        {
-                            for (int j = 0; j < 2; j++)
-                            {
-                                // 버퍼의 데이터 카운트 만큼 돌면서 epc값을 찾아냄
-                                if (j == 0)
-                                {
-                                    index1 = Array.IndexOf(g_TagBufferData[i, j, 0], epc);
-                                    CompareRssi1 = g_TagBufferData[i, j, 0][index1];
-                                }
-                                else
-                                {
-                                    index2 = Array.IndexOf(g_TagBufferData[i, j, 0], epc);
-                                    CompareRssi2 = g_TagBufferData[i, j, 0][index2];
-                                }
-                            }
-
-                            if (Convert.ToDouble(CompareRssi1) < Convert.ToDouble(CompareRssi2))
-                            {
-                                index = index2;
-                                CompareRssi = CompareRssi2;
-                            }
-                            else
-                            {
-                                index = index1;
-                                CompareRssi = CompareRssi1;
-                            }
-
-                            // 현재 Rssi랑 비교
-                            if (Convert.ToDouble(CompareRssi) < Convert.ToDouble(rssi))
-                            {
-                                // 현재 Rssi가 더 크다면 (더 좁은거리)
-                                // 기존 버퍼에 있던 값들 다 지워주기
-                                List<string> tmpTagBuffer = new List<string>(g_TagBufferData[i, 0, 0]);
-                                tmpTagBuffer.RemoveAt(index);
-                                g_TagBufferData[i, 0, 0] = tmpTagBuffer.ToArray();
-
-                                tmpTagBuffer = new List<string>(g_TagBufferData[i, 0, 1]);
-                                tmpTagBuffer.RemoveAt(index);
-                                g_TagBufferData[i, 0, 1] = tmpTagBuffer.ToArray();
-
-                                tmpTagBuffer = new List<string>(g_TagBufferData[i, 1, 0]);
-                                tmpTagBuffer.RemoveAt(index);
-                                g_TagBufferData[i, 1, 0] = tmpTagBuffer.ToArray();
-
-                                tmpTagBuffer = new List<string>(g_TagBufferData[i, 1, 1]);
-                                tmpTagBuffer.RemoveAt(index);
-                                g_TagBufferData[i, 1, 1] = tmpTagBuffer.ToArray();
-
-                                tagDataViews[i].labelTagCount.Text = g_TagBufferData[i, 1, 0].Length.ToString();
-                                tagDataViews[i].labelStateOUT.BackColor = Color.Blue;
-
-                                if (NetWorkModeCheck)
-                                {
-                                    RequestJSON2(DeviceId, "anonymous", i + 1, epc, --Count[i], 0, ++OutputCount[i]);
-                                }
-
-                                return true;
-                            }
-                            else
-                                return false;
-                        }
-                        // CheckCount 0이거나 1이면 하나의 버퍼에 존재한다는 뜻
-                        if (CheckCount == 0 || CheckCount == 1)
-                        {
-                            // 첫번째 버퍼에 값이 있다는 뜻
-                            if (CheckCount == 1)
-                            {
-                                index = Array.IndexOf(g_TagBufferData[i, 0, 0], epc);
-                                CompareRssi = g_TagBufferData[i, 0, 1][index];
-
-                                if (Convert.ToDouble(CompareRssi) < Convert.ToDouble(rssi))
-                                {
-                                    // 현재 Rssi가 더 크다면 (더 좁은거리)
-                                    // 기존 버퍼에 있던 값들 다 지워주기
-
-                                    List<string> tmpTagBuffer = new List<string>(g_TagBufferData[i, 0, 0]);
-                                    tmpTagBuffer.RemoveAt(index);
-                                    g_TagBufferData[i, 0, 0] = tmpTagBuffer.ToArray();
-
-                                    tmpTagBuffer = new List<string>(g_TagBufferData[i, 0, 1]);
-                                    tmpTagBuffer.RemoveAt(index);
-                                    g_TagBufferData[i, 0, 1] = tmpTagBuffer.ToArray();
-
-                                    tagDataViews[i].labelTagCount.Text = g_TagBufferData[i, 0, 0].Length.ToString();
-                                    tagDataViews[i].labelStateOUT.BackColor = Color.Blue;
-
-                                    if (NetWorkModeCheck)
-                                    {
-                                        RequestJSON2(DeviceId, "anonymous", i + 1, epc, --Count[i], 0, ++OutputCount[i]);
-                                    }
-
-                                    return true;
-                                }
-                                else
-                                    return false;
-                            }
-                            // 두번째 버퍼에 값이 있다는 뜻
-                            if (CheckCount == 0)
-                            {
-                                index = Array.IndexOf(g_TagBufferData[i, 1, 0], epc);
-                                CompareRssi = g_TagBufferData[i, 1, 1][index];
-
-                                if (Convert.ToDouble(CompareRssi) < Convert.ToDouble(rssi))
-                                {
-                                    // 현재 Rssi가 더 크다면 (더 좁은거리)
-                                    // 기존 버퍼에 있던 값들 다 지워주기
-                                    List<string> tmpTagBuffer = new List<string>(g_TagBufferData[i, 1, 0]);
-                                    tmpTagBuffer.RemoveAt(index);
-                                    g_TagBufferData[i, 1, 0] = tmpTagBuffer.ToArray();
-
-                                    tmpTagBuffer = new List<string>(g_TagBufferData[i, 1, 1]);
-                                    tmpTagBuffer.RemoveAt(index);
-                                    g_TagBufferData[i, 1, 1] = tmpTagBuffer.ToArray();
-
-
-                                    if (NetWorkModeCheck)
-                                    {
-                                        RequestJSON2(DeviceId, "anonymous", i + 1, epc, --Count[i], 0, ++OutputCount[i]);
-                                    }
-
-                                    tagDataViews[i].labelTagCount.Text = g_TagBufferData[i, 1, 0].Length.ToString();
-                                    tagDataViews[i].labelStateOUT.BackColor = Color.Blue;
-
-                                    return true;
-                                }
-                                else
-                                    return false;
-                            }
-
-                        }
-
-                    }
-                    else
-                        return true;
-                }
-            }
-            return false;
-        }
-
-
-        private bool TagTotalCompareRssi(string epc, string rssi, int TagCurAntNo)
-        {
-            bool Testbool = true;
-
-            List<int> SaveAntNo = new List<int>();
-
-            for (int i = 0; i < AntCount; i++)
-            {
-                if (i != TagCurAntNo)
-                {
-                    if (g_TagBufferTotalData[i, 0] != null)
-                    {
-                        int index = Array.IndexOf(g_TagBufferTotalData[i, 0], epc);
-
-                        if (index != -1)//있을 때
-                        {
-                            SaveAntNo.Add(i + 1);
-
-                            if (Convert.ToDouble(g_TagBufferTotalData[i, 1][index]) < Convert.ToDouble(rssi))
-                            {
-                                List<string> tmpTotalBuffer = new List<string>(g_TagBufferTotalData[i, 0]);
-                                tmpTotalBuffer.RemoveAt(index);
-                                g_TagBufferTotalData[i, 0] = tmpTotalBuffer.ToArray();
-
-                                tmpTotalBuffer = new List<string>(g_TagBufferTotalData[i, 1]);
-                                tmpTotalBuffer.RemoveAt(index);
-                                g_TagBufferTotalData[i, 1] = tmpTotalBuffer.ToArray();
-
-                                for (int j = 0; j < BufferSettingLength[CurentPort]; j++)
-                                {
-                                    if (g_TagBufferData[i, j, 0] != null)
-                                    {
-                                        if (g_TagBufferData[i, j, 0].Length != 0)
-                                        {
-                                            index = Array.IndexOf(g_TagBufferData[i, j, 0], epc);
-                                            if (index != -1)
-                                            {
-                                                tmpTotalBuffer = new List<string>(g_TagBufferData[i, j, 0]);
-                                                tmpTotalBuffer.RemoveAt(index);
-                                                g_TagBufferData[i, j, 0] = tmpTotalBuffer.ToArray();
-
-                                                tmpTotalBuffer = new List<string>(g_TagBufferData[i, j, 1]);
-                                                tmpTotalBuffer.RemoveAt(index);
-                                                g_TagBufferData[i, j, 1] = tmpTotalBuffer.ToArray();
-
-                                                if (g_TagBufferTotalData[i, 0].Length == 0)
-                                                {
-                                                    LVDebugMode.Items[i].SubItems[j + 1].Text = "0";
-                                                }
-                                                else
-                                                    LVDebugMode.Items[i].SubItems[j + 1].Text = g_TagBufferTotalData[i, 0].Length.ToString();
-
-                                                if (NetWorkModeCheck)
-                                                {
-                                                    //++OutputCount[i];
-                                                    //--Count[i];
-                                                    RequestJSON2(DeviceId, "anonymous", i + 1, epc, --Count[i], 0, ++OutputCount[i]);
-                                                    //InputCount--;
-                                                    //Thread.Sleep(50);
-                                                }
-                                                tagDataViews[i].labelStateOUT.BackColor = Color.Blue;
-                                            }
-                                        }
-
-                                    }
-                                }
-                                DateCheck();
-
-                                LVDebugMode.Items[i].SubItems[11].Text = g_TagBufferTotalData[i, 0].Length.ToString();
-                                //tagDataViews[i].labelTagCount.Text = g_TagBufferTotalData[i, 0].Length.ToString();
-
-                            }
-                            else
-                            {
-                                Testbool = false;
-                            }
-                        }
-                    }
-                }
-            }
-
-
-            if (SaveAntNo.Count > 0)
-            {
-                string SaveAntData = " ";
-                for (int i = 0; i < SaveAntNo.Count; i++)
-                {
-                    SaveAntData = SaveAntData + (SaveAntNo[i]).ToString() + " ";
-                }
-
-
-            }
-
-
-            return Testbool;
         }
 
         private int TagBufferDataCheck(string epc)
@@ -1526,8 +1171,8 @@ namespace a211_AutoCabinet.Forms
                 }
             }
 
-            LVDebugMode.Items[g_TagCurAntNo].SubItems[g_TagBufferCurLocationArray[CurentPort] + 1].Text
-             = g_TagBufferData[g_TagCurAntNo, g_TagBufferCurLocationArray[CurentPort], 0].Length.ToString();
+            LVDebugMode.Items[g_TagCurAntNo].SubItems[g_TagBufferCurLocationArray[g_TagCurAntNo] + 1].Text
+             = g_TagBufferData[g_TagCurAntNo, g_TagBufferCurLocationArray[g_TagCurAntNo], 0].Length.ToString();
 
         }
 
@@ -1605,44 +1250,16 @@ namespace a211_AutoCabinet.Forms
 
         }
 
-        private void timerLocationNoCheck_Tick(object sender, EventArgs e)
+        private int CurrentAntLocation = 0;
+        // 색 찍어주기용 타이머
+        private void CurrentLoactionColorCheck_Tick(object sender, EventArgs e)
         {
-
-            if (g_TagCurAntNo + 1 >= AntCount)
-            {
-                g_TagCurAntNo = 0;
-            }
-            else
-            {
-                g_TagCurAntNo++;
-            }
-
-        }
-
-        private int[] savecurentarray = new int[128];
-        private bool CycleCheck = false;
-        private bool TimerCheck = false;
-
-        private void timerAntNoCheck_Tick(object sender, EventArgs e)
-        {
-            savecurentarray[CurentPort] = g_TagBufferCurLocationArray[CurentPort];
 
             for (int i = 0; i < AntCount; i++)
             {
-                LVDebugMode.Items[i].SubItems[13].Text = BufferSettingLength[i].ToString();
+                tagDataViews[i].labelAntNum.ForeColor = Color.MediumBlue;
             }
-
-
-            // Table View
-            if (tableModeToolStripMenuItem.Checked)
-            {
-                for (int i = 0; i < AntCount; i++)
-                {
-                    tagDataViews[i].labelAntNum.ForeColor = Color.MediumBlue;
-                }
-                tagDataViews[g_TagTimerAntNo].labelAntNum.ForeColor = Color.Lime;
-            }
-
+            tagDataViews[CurrentAntLocation].labelAntNum.ForeColor = Color.Lime;
 
 
             for (int i = 0; i < AntCount; i++)
@@ -1652,55 +1269,22 @@ namespace a211_AutoCabinet.Forms
                     LVDebugMode.Items[i].SubItems[j].BackColor = Color.White;
                 }
             }
+            LVDebugMode.Items[CurrentAntLocation].SubItems[g_TagBufferCurLocationArray[CurrentAntLocation] + 1].BackColor = Color.Lime;
 
-            if (CycleCheck && TimerCheck)
+            ++CurrentAntLocation;
+            if (CurrentAntLocation > AntCount - 1)
             {
-                if (g_TagCurAntNo - 1 > g_TagTimerAntNo)
-                {
-                    if (g_TagBufferCurLocationArray[g_TagTimerAntNo] + 2 <= BufferSettingLength[g_TagTimerAntNo])
-                    {
-                        LVDebugMode.Items[g_TagTimerAntNo].SubItems[g_TagBufferCurLocationArray[CurentPort] + 2].BackColor = Color.Lime;
-                        LVDebugMode.EnsureVisible(g_TagTimerAntNo);
-                    }
-                    else
-                    {
-                        LVDebugMode.Items[g_TagTimerAntNo].SubItems[1].BackColor = Color.Lime;
-                        LVDebugMode.EnsureVisible(g_TagTimerAntNo);
-                    }
-                }
-                else
-                {
-                    LVDebugMode.Items[g_TagTimerAntNo].SubItems[g_TagBufferCurLocationArray[CurentPort] + 1].BackColor = Color.Lime;
-                    LVDebugMode.EnsureVisible(g_TagTimerAntNo);
-                }
-
+                CurrentAntLocation = 0;
             }
 
-            if (TimerCheck)
+            for (int i = 0; i < AntCount; i++)
             {
-                g_TagTimerAntNo++;
-                g_TagTimerAddCount++;
-                CurentPort++; // 이벤트가 돌지 않을 때 다음 포트로 넘어가야함으로
-            }
-
-            if (g_TagTimerAntNo > AntCount - 1)// 안테나 타이머 카운트가 안테나 개수를 넘었을때 
-            {
-                CycleCheck = false;
-                TimerCheck = false;
-                g_TagTimerAntNo = 0;
-
-            }
-
-
-            if (CurentPort > AntCount - 1)
-            {
-                CurentPort = 0;
+                LVDebugMode.Items[i].SubItems[13].Text = BufferSettingLength[i].ToString();
             }
 
         }
 
 
-        private string SavePortData = null;
         private ListView RealTimeTagDatasEpc = new ListView();
         public bool UpdateTagLog(DateTime Time, string Reader, int Ant, string Tag, string Ip_Address, string State)//Asyen : State -> 0
         {
@@ -1793,26 +1377,14 @@ namespace a211_AutoCabinet.Forms
             tagDataViewsSetting();
             tableLayoutPanelTagDataViewSetting(CountPanelColumn, CountPanelRow);
             SaveDoubleBuffered();
-            /*
-            // 네트워크모드, 일반모드 선택 폼
-            using (SelectModeForm form = new SelectModeForm())
-            {
-                form.ModeSelection_NetWork += new SelectModeForm.NetWorkMode(NetWorkMode);
-                form.ModeSelection_Nomal += new SelectModeForm.NomalMode(NomalMode);
 
-                if (form.ShowDialog() == DialogResult.OK)
-                {
-
-                }
-            }
-            */
         }
 
         private bool NetWorkModeCheck = false;
-        public string DeviceName;
-        public string DeviceId;
-        public string ApiUri;
-        public string GsUri;
+        public string DeviceName = string.Empty;
+        public string DeviceId = string.Empty;
+        public string ApiUri = string.Empty;
+        public string GsUri = string.Empty;
 
         private void LoadDeviceItem(string DeviceName, string DeviceId, string ApiUri, string GsUri, bool NetWorkCheck)
         {
@@ -1822,8 +1394,6 @@ namespace a211_AutoCabinet.Forms
             this.GsUri = GsUri;
             this.NetWorkModeCheck = NetWorkCheck;
 
-            // DB에 디바이스 ID가 등록된게 맞는지 확인
-            DeviceIdRequest();
         }
 
 
@@ -2450,7 +2020,7 @@ namespace a211_AutoCabinet.Forms
         public async void RfidInventory()
         {
             InventoryTimer.Stop();
-            timerAntNoCheck.Stop();
+            CurrentLoactionColorCheck.Stop();
             // 인벤토리 종료
             await ToggleRfidInventory().ConfigureAwait(true);
 
@@ -2460,6 +2030,9 @@ namespace a211_AutoCabinet.Forms
         {
             StopCheck = false;
             varClear();
+            if (NetWorkModeCheck)
+                // DB에 디바이스 ID가 등록된게 맞는지 확인
+                DeviceIdRequest();
             await ToggleRfidInventory().ConfigureAwait(true);
 
             btnInvenStop.Enabled = true;
@@ -2586,7 +2159,7 @@ namespace a211_AutoCabinet.Forms
                     result == RfidResult.NOT_INVENTORY_STATE)
                 {
 
-                    timerAntNoCheck.Enabled = false;
+                    CurrentLoactionColorCheck.Enabled = false;
 
                     mRfidInventoryStarted = false;
                     ToggleRfidInventoryButton();
@@ -2644,7 +2217,7 @@ namespace a211_AutoCabinet.Forms
                     if (NetWorkModeCheck)
                         ReqeustTagList();
 
-                    timerAntNoCheck.Enabled = false;
+                    CurrentLoactionColorCheck.Enabled = false;
 
                     mRfidInventoryStarted = false;
                     ToggleRfidInventoryButton();
@@ -2686,10 +2259,11 @@ namespace a211_AutoCabinet.Forms
                 if (result == RfidResult.SUCCESS)
                 {
                     ATrace.i(TAG, I, "INFO StartInventory");
+                    // 세팅 설정에서 드웰타임 값을 안가져왔다면 장비에 세팅되어 있는 드웰타임 값을 가져옴
                     if (dwells?[0] == null)
-                        timerAntNoCheck.Interval = iDwells;
+                        CurrentLoactionColorCheck.Interval = iDwells;
                     else
-                        timerAntNoCheck.Interval = dwells[0];
+                        CurrentLoactionColorCheck.Interval = dwells[0];
 
                     // 인벤토리 시간에 맞춰 타이머 설정 
                     if (dwells?[0] == null)
@@ -2698,9 +2272,8 @@ namespace a211_AutoCabinet.Forms
                         InventoryTimer.Interval = (int)(dwells[0] * AntCount * 1.1);
 
                     InventoryTimer.Start();
-                    timerAntNoCheck.Start();
+                    CurrentLoactionColorCheck.Start();
 
-                    SavePortData = null;
 
                     mRfidInventoryStarted = true;
                     ToggleRfidInventoryButton();
@@ -2710,8 +2283,7 @@ namespace a211_AutoCabinet.Forms
                     Properties.Resources.Culture = new CultureInfo(CultureString);
                     buttonRfidInventory.Text = Properties.Resources.StringInvenStart;
 
-                    CycleCheck = true;
-                    TimerCheck = true;
+
                 }
                 else
                 {
@@ -2740,10 +2312,10 @@ namespace a211_AutoCabinet.Forms
             {
                 ATrace.i(TAG, I, "INFO StartInventory");
                 if (dwells?[0] == null)
-                    timerAntNoCheck.Interval = iDwells;
+                    CurrentLoactionColorCheck.Interval = iDwells;
                 else
-                    timerAntNoCheck.Interval = dwells[0];
-                timerAntNoCheck.Enabled = true;
+                    CurrentLoactionColorCheck.Interval = dwells[0];
+                CurrentLoactionColorCheck.Enabled = true;
 
                 // 인벤토리 시간에 맞춰 타이머 설정 
                 if (dwells?[0] == null)
@@ -2752,7 +2324,6 @@ namespace a211_AutoCabinet.Forms
                     InventoryTimer.Interval = (int)(dwells[0] * AntCount * 1.1);
                 InventoryTimer.Start();
 
-                SavePortData = null;
 
                 mRfidInventoryStarted = true;
                 ToggleRfidInventoryButton();
@@ -2761,9 +2332,6 @@ namespace a211_AutoCabinet.Forms
 
                 Properties.Resources.Culture = new CultureInfo(CultureString);
                 buttonRfidInventory.Text = Properties.Resources.StringInvenStart;
-
-                CycleCheck = true;
-                TimerCheck = true;
             }
             else
             {
@@ -2825,7 +2393,7 @@ namespace a211_AutoCabinet.Forms
                         }
                     }
                     tagDataViews[i].labelStateIN.BackColor = Color.Red;
-                } 
+                }
                 // 이전 버퍼에 값이 있으면 비교를 해서 입고인지 출고인지 확인을 해야겠지
                 else if (g_TagBufferData[i, BeforeBufferLocation, 0] != null && g_TagBufferData[i, g_TagBufferCurLocationArray[i], 0] != null)
                 {
@@ -2887,8 +2455,8 @@ namespace a211_AutoCabinet.Forms
                                 tagDataViews[i].labelStateIN.BackColor = Color.Red;
                             }
                         }
-                        
-                       
+
+
 
                     }
                     // 이전 버퍼의 카운트가 더 크다면 출고처리
@@ -2944,8 +2512,8 @@ namespace a211_AutoCabinet.Forms
                                 tagDataViews[i].labelStateIN.BackColor = Color.Red;
                             }
                         }
-                        
-                        
+
+
                     }
                     // 버퍼의 카운트가 서로 같다면
                     else
@@ -2984,13 +2552,12 @@ namespace a211_AutoCabinet.Forms
                                 tagDataViews[i].labelStateIN.BackColor = Color.Red;
                             }
                         }
-                        
-                        
+
+
 
                     }
                     // 태그 카운트 출력
                     tagDataViews[i].labelTagCount.Text = g_TagBufferData[i, g_TagBufferCurLocationArray[i], 0].Length.ToString();
-
                 }
                 // 전부 비워져 있다면 넘어가기
                 else
@@ -3142,7 +2709,7 @@ namespace a211_AutoCabinet.Forms
 
         private async void devSettingToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (SettingDefaultForm dlg = new SettingDefaultForm(CultureString))
+            using (SettingDefaultForm dlg = new SettingDefaultForm(this,CultureString, DeviceId, NetWorkModeCheck))
             {
                 dlg.EventDeviceInfo += new SettingDefaultForm.EventDeviceSettings(GetDeviceSettingInfo);
                 dlg.EventRssi += new SettingDefaultForm.EventRssiSettings(GetRssiFilterInfo);
@@ -3196,43 +2763,6 @@ namespace a211_AutoCabinet.Forms
             this.RssiValue = RssiValue;
         }
 
-        private void tableModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            listModeToolStripMenuItem.Checked = false;
-            tableModeToolStripMenuItem.Checked = true;
-            debugModeToolStripMenuItem.Checked = false;
-            listViewTagDataView.Visible = false;
-            panelTagDataView.Visible = true;
-            LVDebugMode.Visible = false;
-        }
-
-        private void listModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            listModeToolStripMenuItem.Checked = true;
-            tableModeToolStripMenuItem.Checked = false;
-            debugModeToolStripMenuItem.Checked = false;
-            listViewTagDataView.Visible = true;
-            panelTagDataView.Visible = false;
-            LVDebugMode.Visible = false;
-        }
-
-        private void debugModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            listModeToolStripMenuItem.Checked = false;
-            tableModeToolStripMenuItem.Checked = false;
-            debugModeToolStripMenuItem.Checked = true;
-            panelTagDataView.Visible = false;
-            listViewTagDataView.Visible = false;
-            LVDebugMode.Visible = true;
-            for (int i = 0; i < 128; i++)
-            {
-                string[] items = new string[15];
-                items[0] = (i + 1).ToString();
-                ListViewItem item = new ListViewItem(items);
-                LVDebugMode.Items.Add(item);
-            }
-            InitDebugModeList();
-        }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -3270,7 +2800,6 @@ namespace a211_AutoCabinet.Forms
             }
         }
 
-
         private void LVDebugMode_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -3298,18 +2827,26 @@ namespace a211_AutoCabinet.Forms
             RfidInventory();
         }
 
-        private void InventoryStopTImer_Tick(object sender, EventArgs e)
-        {
-            InventoryStopTImer.Stop();
-            InventoryTimer.Start();
-        }
-
         private async void btnInvenStop_Click(object sender, EventArgs e)
         {
-            StopCheck = true;
+            
             await ToggleRfidStopInventory().ConfigureAwait(true);
-            InventoryStopTImer.Stop();
             InventoryTimer.Stop();
+            StopCheck = true;
+            for (int i = 0; i < AntCount; i++)
+            {
+                tagDataViews[i].labelAntNum.ForeColor = Color.MediumBlue;
+            }
+
+            for (int i = 0; i < AntCount; i++)
+            {
+                for (int j = 1; j <= 10; j++)
+                {
+                    LVDebugMode.Items[i].SubItems[j].BackColor = Color.White;
+                }
+            }
+
+            CurrentAntLocation = 0;
         }
 
         private void viewToolStripMenuItem_Click(object sender, EventArgs e)
@@ -3330,12 +2867,14 @@ namespace a211_AutoCabinet.Forms
                 buttonRfidInventory.Visible = true;
                 btnInvenStop.Visible = true;
             }
-            else
+            else if (tabControlModeTab.SelectedTab == tabPageListMode)
             {
-                StopCheck = true;
-                await ToggleRfidStopInventory().ConfigureAwait(true);
-                InventoryStopTImer.Stop();
-                InventoryTimer.Stop();
+                if (!StopCheck)
+                {
+                    StopCheck = true;
+                    await ToggleRfidStopInventory().ConfigureAwait(true);
+                    InventoryTimer.Stop();
+                }
 
                 panelTagDataView.Visible = false;
                 LVDebugMode.Visible = false;
@@ -3345,6 +2884,20 @@ namespace a211_AutoCabinet.Forms
                 listViewTagDataView.Visible = true;
                 btnExcelSave.Enabled = true;
                 btnExcelSave.Visible = true;
+            }
+            else
+            {
+                // 활성화 할 것
+                LVDebugMode.Visible = true;
+                LVDebugMode.Enabled = true;
+                buttonRfidInventory.Visible = true;
+                btnInvenStop.Visible = true;
+
+                panelTagDataView.Visible = false;
+                listViewTagDataView.Visible = false;
+                btnExcelSave.Enabled = false;
+                btnExcelSave.Visible = false;
+
             }
         }
 
@@ -3374,7 +2927,6 @@ namespace a211_AutoCabinet.Forms
             engToolStripMenuItem.Checked = false;
             CultureString = "ko";
             Properties.Resources.Culture = new CultureInfo(CultureString);
-            tableModeToolStripMenuItem.Checked = true;
             m_fnBufferLength = new BufferSettingForm.TagBufferLengthArray(BufferLengthReturn);
             BufferSettingForm.BufferSettingEvent += m_fnBufferLength;
         }
@@ -3403,7 +2955,6 @@ namespace a211_AutoCabinet.Forms
             btnExcelSave.Visible = false;
             CultureString = "en";
             Properties.Resources.Culture = new CultureInfo(CultureString);
-            tableModeToolStripMenuItem.Checked = true;
             m_fnBufferLength = new BufferSettingForm.TagBufferLengthArray(BufferLengthReturn);
             BufferSettingForm.BufferSettingEvent += m_fnBufferLength;
 
@@ -3472,7 +3023,7 @@ namespace a211_AutoCabinet.Forms
         private void modeSettingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // Uri 설정 및 네트워크 모드 세팅 폼  
-            using (DeviceNotificationListForm form = new DeviceNotificationListForm())
+            using (DeviceNotificationListForm form = new DeviceNotificationListForm(DeviceId))
             {
                 form.SelectedDeviceItem += new DeviceNotificationListForm.DeviceListData(LoadDeviceItem);
                 if (form.ShowDialog() == DialogResult.OK)
@@ -3491,6 +3042,11 @@ namespace a211_AutoCabinet.Forms
         }
 
         private void viewModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPageDebugMode_Click(object sender, EventArgs e)
         {
 
         }
